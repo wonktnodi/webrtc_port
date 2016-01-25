@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FloatFR_aacPlusdec", "FloatFR_aacPlusdec_mpeg4.vcxproj", "{97A60352-96F4-E9DD-61EA-68F80B42A7ED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D855FAC5-AD8C-42F7-FADC-229432E2F187} = {D855FAC5-AD8C-42F7-FADC-229432E2F187}
+		{0B5E1CC5-5AA7-8696-ABE4-BB9BBDEDEC31} = {0B5E1CC5-5AA7-8696-ABE4-BB9BBDEDEC31}
+		{BA30C65A-3056-3A7D-8D92-36F7F1BF2BA2} = {BA30C65A-3056-3A7D-8D92-36F7F1BF2BA2}
+		{4EA6E168-D8B7-2FBF-0BE1-ABF3BCF46DB6} = {4EA6E168-D8B7-2FBF-0BE1-ABF3BCF46DB6}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FloatFR_aacdeclib", "FloatFR_aacdec\FloatFR_aacdeclib_mpeg4.vcxproj", "{D855FAC5-AD8C-42F7-FADC-229432E2F187}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FloatFR_bitbuflib", "FloatFR_bitbuflib\FloatFR_bitbuflib.vcxproj", "{4EA6E168-D8B7-2FBF-0BE1-ABF3BCF46DB6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FloatFR_sbrdeclib", "FloatFR_sbrdeclib\FloatFR_sbrdeclib_aac.vcxproj", "{0B5E1CC5-5AA7-8696-ABE4-BB9BBDEDEC31}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FloatFRlib", "FloatFRlib\FloatFRlib.vcxproj", "{BA30C65A-3056-3A7D-8D92-36F7F1BF2BA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CT Debug|Win32 = CT Debug|Win32
+		CT Mono Debug|Win32 = CT Mono Debug|Win32
+		CT Mono Release|Win32 = CT Mono Release|Win32
+		CT Release|Win32 = CT Release|Win32
+		Template|Win32 = Template|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97A60352-96F4-E9DD-61EA-68F80B42A7ED}.CT Debug|Win32.ActiveCfg = CT Debug|Win32
+		{97A60352-96F4-E9DD-61EA-68F80B42A7ED}.CT Debug|Win32.Build.0 = CT Debug|Win32
+		{97A60352-96F4-E9DD-61EA-68F80B42A7ED}.CT Mono Debug|Win32.ActiveCfg = CT Mono Debug|Win32
+		{97A60352-96F4-E9DD-61EA-68F80B42A7ED}.CT Mono Debug|Win32.Build.0 = CT Mono Debug|Win32
+		{97A60352-96F4-E9DD-61EA-68F80B42A7ED}.CT Mono Release|Win32.ActiveCfg = CT Mono Release|Win32
+		{97A60352-96F4-E9DD-61EA-68F80B42A7ED}.CT Mono Release|Win32.Build.0 = CT Mono Release|Win32
+		{97A60352-96F4-E9DD-61EA-68F80B42A7ED}.CT Release|Win32.ActiveCfg = CT Release|Win32
+		{97A60352-96F4-E9DD-61EA-68F80B42A7ED}.CT Release|Win32.Build.0 = CT Release|Win32
+		{97A60352-96F4-E9DD-61EA-68F80B42A7ED}.Template|Win32.ActiveCfg = CT Release|Win32
+		{97A60352-96F4-E9DD-61EA-68F80B42A7ED}.Template|Win32.Build.0 = CT Release|Win32
+		{D855FAC5-AD8C-42F7-FADC-229432E2F187}.CT Debug|Win32.ActiveCfg = CT Debug|Win32
+		{D855FAC5-AD8C-42F7-FADC-229432E2F187}.CT Debug|Win32.Build.0 = CT Debug|Win32
+		{D855FAC5-AD8C-42F7-FADC-229432E2F187}.CT Mono Debug|Win32.ActiveCfg = CT Mono Debug|Win32
+		{D855FAC5-AD8C-42F7-FADC-229432E2F187}.CT Mono Debug|Win32.Build.0 = CT Mono Debug|Win32
+		{D855FAC5-AD8C-42F7-FADC-229432E2F187}.CT Mono Release|Win32.ActiveCfg = CT Mono Release|Win32
+		{D855FAC5-AD8C-42F7-FADC-229432E2F187}.CT Mono Release|Win32.Build.0 = CT Mono Release|Win32
+		{D855FAC5-AD8C-42F7-FADC-229432E2F187}.CT Release|Win32.ActiveCfg = CT Release|Win32
+		{D855FAC5-AD8C-42F7-FADC-229432E2F187}.CT Release|Win32.Build.0 = CT Release|Win32
+		{D855FAC5-AD8C-42F7-FADC-229432E2F187}.Template|Win32.ActiveCfg = Template|Win32
+		{D855FAC5-AD8C-42F7-FADC-229432E2F187}.Template|Win32.Build.0 = Template|Win32
+		{4EA6E168-D8B7-2FBF-0BE1-ABF3BCF46DB6}.CT Debug|Win32.ActiveCfg = CT Debug|Win32
+		{4EA6E168-D8B7-2FBF-0BE1-ABF3BCF46DB6}.CT Debug|Win32.Build.0 = CT Debug|Win32
+		{4EA6E168-D8B7-2FBF-0BE1-ABF3BCF46DB6}.CT Mono Debug|Win32.ActiveCfg = CT Mono Debug|Win32
+		{4EA6E168-D8B7-2FBF-0BE1-ABF3BCF46DB6}.CT Mono Debug|Win32.Build.0 = CT Mono Debug|Win32
+		{4EA6E168-D8B7-2FBF-0BE1-ABF3BCF46DB6}.CT Mono Release|Win32.ActiveCfg = CT Mono Release|Win32
+		{4EA6E168-D8B7-2FBF-0BE1-ABF3BCF46DB6}.CT Mono Release|Win32.Build.0 = CT Mono Release|Win32
+		{4EA6E168-D8B7-2FBF-0BE1-ABF3BCF46DB6}.CT Release|Win32.ActiveCfg = CT Release|Win32
+		{4EA6E168-D8B7-2FBF-0BE1-ABF3BCF46DB6}.CT Release|Win32.Build.0 = CT Release|Win32
+		{4EA6E168-D8B7-2FBF-0BE1-ABF3BCF46DB6}.Template|Win32.ActiveCfg = Template|Win32
+		{4EA6E168-D8B7-2FBF-0BE1-ABF3BCF46DB6}.Template|Win32.Build.0 = Template|Win32
+		{0B5E1CC5-5AA7-8696-ABE4-BB9BBDEDEC31}.CT Debug|Win32.ActiveCfg = CT Debug|Win32
+		{0B5E1CC5-5AA7-8696-ABE4-BB9BBDEDEC31}.CT Debug|Win32.Build.0 = CT Debug|Win32
+		{0B5E1CC5-5AA7-8696-ABE4-BB9BBDEDEC31}.CT Mono Debug|Win32.ActiveCfg = CT Mono Debug|Win32
+		{0B5E1CC5-5AA7-8696-ABE4-BB9BBDEDEC31}.CT Mono Debug|Win32.Build.0 = CT Mono Debug|Win32
+		{0B5E1CC5-5AA7-8696-ABE4-BB9BBDEDEC31}.CT Mono Release|Win32.ActiveCfg = CT Mono Release|Win32
+		{0B5E1CC5-5AA7-8696-ABE4-BB9BBDEDEC31}.CT Mono Release|Win32.Build.0 = CT Mono Release|Win32
+		{0B5E1CC5-5AA7-8696-ABE4-BB9BBDEDEC31}.CT Release|Win32.ActiveCfg = CT Release|Win32
+		{0B5E1CC5-5AA7-8696-ABE4-BB9BBDEDEC31}.CT Release|Win32.Build.0 = CT Release|Win32
+		{0B5E1CC5-5AA7-8696-ABE4-BB9BBDEDEC31}.Template|Win32.ActiveCfg = Template|Win32
+		{0B5E1CC5-5AA7-8696-ABE4-BB9BBDEDEC31}.Template|Win32.Build.0 = Template|Win32
+		{BA30C65A-3056-3A7D-8D92-36F7F1BF2BA2}.CT Debug|Win32.ActiveCfg = CT Debug|Win32
+		{BA30C65A-3056-3A7D-8D92-36F7F1BF2BA2}.CT Debug|Win32.Build.0 = CT Debug|Win32
+		{BA30C65A-3056-3A7D-8D92-36F7F1BF2BA2}.CT Mono Debug|Win32.ActiveCfg = CT Mono Debug|Win32
+		{BA30C65A-3056-3A7D-8D92-36F7F1BF2BA2}.CT Mono Debug|Win32.Build.0 = CT Mono Debug|Win32
+		{BA30C65A-3056-3A7D-8D92-36F7F1BF2BA2}.CT Mono Release|Win32.ActiveCfg = CT Mono Release|Win32
+		{BA30C65A-3056-3A7D-8D92-36F7F1BF2BA2}.CT Mono Release|Win32.Build.0 = CT Mono Release|Win32
+		{BA30C65A-3056-3A7D-8D92-36F7F1BF2BA2}.CT Release|Win32.ActiveCfg = CT Release|Win32
+		{BA30C65A-3056-3A7D-8D92-36F7F1BF2BA2}.CT Release|Win32.Build.0 = CT Release|Win32
+		{BA30C65A-3056-3A7D-8D92-36F7F1BF2BA2}.Template|Win32.ActiveCfg = Template|Win32
+		{BA30C65A-3056-3A7D-8D92-36F7F1BF2BA2}.Template|Win32.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

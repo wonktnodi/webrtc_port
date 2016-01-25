@@ -1,0 +1,21 @@
+﻿Build started 7/15/2013 10:06:16 AM.
+     1>Project "d:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\3GPP_enhanced_aacPlus_src_200907\FloatFR_aacPlusdec\FloatFRlib\FloatFRlib.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Win32_D/CT/obj\FloatFRlib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         f:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Win32_D/CT/obj\\" /Fd".\Win32_D/CT/obj\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt src\cfftn.c src\transcendent.c
+         transcendent.c
+         cfftn.c
+         Generating Code...
+       Lib:
+         f:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\Win32_D/CT\FloatFRlib.lib" /NOLOGO .\Win32_D/CT/obj\cfftn.obj
+         .\Win32_D/CT/obj\transcendent.obj
+         FloatFRlib.vcxproj -> d:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\3GPP_enhanced_aacPlus_src_200907\FloatFR_aacPlusdec\FloatFRlib\.\Win32_D/CT\FloatFRlib.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Win32_D/CT/obj\FloatFRlib.unsuccessfulbuild".
+         Touching ".\Win32_D/CT/obj\FloatFRlib.lastbuildstate".
+     1>Done Building Project "d:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\3GPP_enhanced_aacPlus_src_200907\FloatFR_aacPlusdec\FloatFRlib\FloatFRlib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.59

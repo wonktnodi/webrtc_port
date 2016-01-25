@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HE-AAC", "HE-AAC\HE-AAC.vcxproj", "{19E5D00E-80F7-494B-A43C-00A33C22A7CF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HEAAClib", "HEAAClib\HEAAClib_2008.vcxproj", "{6CDC14C4-2A84-4DE4-B8EB-777A16D9B654}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HEAACSample", "HEAACSample\HEAACSample.vcxproj", "{CE4A4747-6415-4262-8EFF-DC881327C0D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19E5D00E-80F7-494B-A43C-00A33C22A7CF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{19E5D00E-80F7-494B-A43C-00A33C22A7CF}.Debug|Win32.Build.0 = Debug|Win32
+		{19E5D00E-80F7-494B-A43C-00A33C22A7CF}.Release|Win32.ActiveCfg = Release|Win32
+		{19E5D00E-80F7-494B-A43C-00A33C22A7CF}.Release|Win32.Build.0 = Release|Win32
+		{6CDC14C4-2A84-4DE4-B8EB-777A16D9B654}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6CDC14C4-2A84-4DE4-B8EB-777A16D9B654}.Debug|Win32.Build.0 = Debug|Win32
+		{6CDC14C4-2A84-4DE4-B8EB-777A16D9B654}.Release|Win32.ActiveCfg = Release|Win32
+		{6CDC14C4-2A84-4DE4-B8EB-777A16D9B654}.Release|Win32.Build.0 = Release|Win32
+		{CE4A4747-6415-4262-8EFF-DC881327C0D0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CE4A4747-6415-4262-8EFF-DC881327C0D0}.Debug|Win32.Build.0 = Debug|Win32
+		{CE4A4747-6415-4262-8EFF-DC881327C0D0}.Release|Win32.ActiveCfg = Release|Win32
+		{CE4A4747-6415-4262-8EFF-DC881327C0D0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

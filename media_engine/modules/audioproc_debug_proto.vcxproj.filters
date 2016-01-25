@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="$(OutDir)\protoc.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="audio_processing">
+      <UniqueIdentifier>{2654bd32-373f-4b90-bbd9-74bb5bb4c38f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obj">
+      <UniqueIdentifier>{a09ce0a6-bc5b-4d65-8fde-f8f6a2a2e5aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obj\global_intermediate">
+      <UniqueIdentifier>{62894242-5598-4546-bb97-fc31934bfe5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obj\global_intermediate\protoc_out">
+      <UniqueIdentifier>{05ba3e2e-9adc-412f-a786-b6a2678fe839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obj\global_intermediate\protoc_out\webrtc">
+      <UniqueIdentifier>{81b3aa1e-fea1-4ac5-9fe5-66872c7a6977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="obj\global_intermediate\protoc_out\webrtc\audio_processing">
+      <UniqueIdentifier>{5b872220-5077-4139-88f3-09767fa9d962}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <genproto Include="audio_processing\debug.proto">
+      <Filter>audio_processing</Filter>
+    </genproto>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(OutDir)obj\global_intermediate\protoc_out\webrtc\audio_processing\debug.pb.cc">
+      <Filter>obj\global_intermediate\protoc_out\webrtc\audio_processing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(OutDir)obj\global_intermediate\protoc_out\webrtc\audio_processing\debug.pb.h">
+      <Filter>obj\global_intermediate\protoc_out\webrtc\audio_processing</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

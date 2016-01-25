@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "aac_demo", "demo\aac_demo.vcxproj", "{BD275540-F60F-454B-9F97-D0997BC13995}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libaac++", "libaac++\libaac++.vcxproj", "{35501BF4-BF58-4D1C-B8F6-F21489F54C21}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "aac_util", "aac_util\aac_util.vcxproj", "{01AC018F-638E-4A6D-B46D-EF2E46A4C0A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD275540-F60F-454B-9F97-D0997BC13995}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BD275540-F60F-454B-9F97-D0997BC13995}.Debug|Win32.Build.0 = Debug|Win32
+		{BD275540-F60F-454B-9F97-D0997BC13995}.Release|Win32.ActiveCfg = Release|Win32
+		{BD275540-F60F-454B-9F97-D0997BC13995}.Release|Win32.Build.0 = Release|Win32
+		{35501BF4-BF58-4D1C-B8F6-F21489F54C21}.Debug|Win32.ActiveCfg = Debug|Win32
+		{35501BF4-BF58-4D1C-B8F6-F21489F54C21}.Debug|Win32.Build.0 = Debug|Win32
+		{35501BF4-BF58-4D1C-B8F6-F21489F54C21}.Release|Win32.ActiveCfg = Release|Win32
+		{35501BF4-BF58-4D1C-B8F6-F21489F54C21}.Release|Win32.Build.0 = Release|Win32
+		{01AC018F-638E-4A6D-B46D-EF2E46A4C0A6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{01AC018F-638E-4A6D-B46D-EF2E46A4C0A6}.Debug|Win32.Build.0 = Debug|Win32
+		{01AC018F-638E-4A6D-B46D-EF2E46A4C0A6}.Release|Win32.ActiveCfg = Release|Win32
+		{01AC018F-638E-4A6D-B46D-EF2E46A4C0A6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

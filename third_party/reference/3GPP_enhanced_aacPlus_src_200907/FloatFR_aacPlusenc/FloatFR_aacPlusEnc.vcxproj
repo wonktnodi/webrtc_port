@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="CT Debug|Win32">
+      <Configuration>CT Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CT Mono Debug|Win32">
+      <Configuration>CT Mono Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CT Mono Release|Win32">
+      <Configuration>CT Mono Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="CT Release|Win32">
+      <Configuration>CT Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CT Mono Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CT Mono Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CT Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CT Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='CT Mono Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='CT Mono Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='CT Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='CT Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CT Debug|Win32'">
+    <OutDir>.\Win32_D/CT\</OutDir>
+    <IntDir>.\Win32_D/CT/obj\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CT Release|Win32'">
+    <OutDir>.\Win32_O/CT\</OutDir>
+    <IntDir>.\Win32_O/CT/obj\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CT Mono Debug|Win32'">
+    <OutDir>.\Win32_D/mono_CT\</OutDir>
+    <IntDir>.\Win32_D/mono_CT/obj\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='CT Mono Release|Win32'">
+    <OutDir>.\Win32_O/mono_CT\</OutDir>
+    <IntDir>.\Win32_O/mono_CT/obj\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CT Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>FloatFR_fastaacenc;lib;lib/w32;FloatFRlib;FloatFR_fastaacenc/src;FloatFR_resamplib;FloatFR_sbrenclib;src;FloatFR_bitbuflib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Win32_D/CT/obj\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Win32_D/CT/obj\FloatFR_aacPlusEnc.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Win32_D/CT/obj\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Win32_D/CT/obj\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>copy     .\lib\w32\ct-libisomedia.dll     .\Win32_D\CT</Command>
+    </PostBuildEvent>
+    <Midl>
+      <TypeLibraryName>.\Win32_D/CT\FloatFR_aacPlusEnc.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0407</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Win32_D/CT\FloatFR_aacPlusEnc.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>Win32_D/CT/enhAacPlusEnc.exe</OutputFile>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CT Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>FloatFR_fastaacenc;lib;lib/w32;FloatFRlib;FloatFR_fastaacenc/src;FloatFR_resamplib;FloatFR_sbrenclib;src;FloatFR_bitbuflib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Win32_O/CT/obj\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Win32_O/CT/obj\FloatFR_aacPlusEnc.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Win32_O/CT/obj\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Win32_O/CT/obj\</ProgramDataBaseFileName>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>copy     .\lib\w32\ct-libisomedia.dll     .\Win32_O\CT</Command>
+    </PostBuildEvent>
+    <Midl>
+      <TypeLibraryName>.\Win32_O/CT\FloatFR_aacPlusEnc.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0407</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Win32_O/CT\FloatFR_aacPlusEnc.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>Win32_O/CT/enhAacPlusEnc.exe</OutputFile>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CT Mono Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>FloatFR_fastaacenc;lib;lib/w32;FloatFRlib;FloatFR_fastaacenc/src;FloatFR_resamplib;FloatFR_sbrenclib;src;FloatFR_bitbuflib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_CONSOLE;MONO_ONLY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Win32_D/mono_CT/obj\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Win32_D/mono_CT/obj\FloatFR_aacPlusEnc.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Win32_D/mono_CT/obj\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Win32_D/mono_CT/obj\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>copy     .\lib\w32\ct-libisomedia.dll     .\Win32_D\mono_CT</Command>
+    </PostBuildEvent>
+    <Midl>
+      <TypeLibraryName>.\Win32_D/mono_CT\FloatFR_aacPlusEnc.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0407</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Win32_D/mono_CT\FloatFR_aacPlusEnc.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>Win32_D/mono_CT/enhAacPlusEnc_mono.exe</OutputFile>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='CT Mono Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>FloatFR_fastaacenc;lib;lib/w32;FloatFRlib;FloatFR_fastaacenc/src;FloatFR_resamplib;FloatFR_sbrenclib;src;FloatFR_bitbuflib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_CONSOLE;MONO_ONLY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Win32_O/mono_CT/obj\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Win32_O/mono_CT/obj\FloatFR_aacPlusEnc.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Win32_O/mono_CT/obj\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Win32_O/mono_CT/obj\</ProgramDataBaseFileName>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>copy     .\lib\w32\ct-libisomedia.dll     .\Win32_O\mono_CT</Command>
+    </PostBuildEvent>
+    <Midl>
+      <TypeLibraryName>.\Win32_O/mono_CT\FloatFR_aacPlusEnc.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0407</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Win32_O/mono_CT\FloatFR_aacPlusEnc.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Console</SubSystem>
+      <OutputFile>Win32_O/mono_CT/enhAacPlusEnc_mono.exe</OutputFile>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\brswitchmain.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='CT Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='CT Mono Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='CT Mono Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\main.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='CT Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\mp4file.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\w32\ct-libisomedia.lib" />
+    <Library Include="lib\w32\audiolib.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="FloatFRlib\FloatFRlib.vcxproj">
+      <Project>{6c1a293e-6f27-6b2f-c240-c5645fe872e5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="FloatFR_bitbuflib\FloatFR_bitbuflib.vcxproj">
+      <Project>{d7fb1b52-c4b2-0f4e-fe2e-08f0641b058b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="FloatFR_fastaacenc\FloatFR_aacenc.vcxproj">
+      <Project>{dac14411-4f70-cd47-8aee-5c3a23625876}</Project>
+    </ProjectReference>
+    <ProjectReference Include="FloatFR_resamplib\FloatFR_resamplib.vcxproj">
+      <Project>{d41fcf6d-35aa-758e-b9fb-1da8cc2be3bc}</Project>
+    </ProjectReference>
+    <ProjectReference Include="FloatFR_sbrenclib\FloatFR_sbrenclib_aac.vcxproj">
+      <Project>{19440ead-af79-5ce7-9395-24cbfdf20dac}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

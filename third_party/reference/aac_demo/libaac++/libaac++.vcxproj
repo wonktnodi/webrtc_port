@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="enc\aacenc.c" />
+    <ClCompile Include="enc\aac_ram.c" />
+    <ClCompile Include="enc\aac_rom.c" />
+    <ClCompile Include="enc\bitstream_encoder\bitenc.c" />
+    <ClCompile Include="enc\bitstream_encoder\bit_cnt.c" />
+    <ClCompile Include="enc\channel_map.c" />
+    <ClCompile Include="enc\floatFR\cfftn.c" />
+    <ClCompile Include="enc\floatFR\transcendent.c" />
+    <ClCompile Include="enc\floatFR_bitbuf\bitbuffer.c" />
+    <ClCompile Include="enc\floatFR_resamp\iir32resample.c" />
+    <ClCompile Include="enc\floatFR_resamp\resampler.c" />
+    <ClCompile Include="enc\floatFR_sbrenc_aac\bit_sbr.c" />
+    <ClCompile Include="enc\floatFR_sbrenc_aac\code_env.c" />
+    <ClCompile Include="enc\floatFR_sbrenc_aac\env_bit.c" />
+    <ClCompile Include="enc\floatFR_sbrenc_aac\env_est.c" />
+    <ClCompile Include="enc\floatFR_sbrenc_aac\fram_gen.c" />
+    <ClCompile Include="enc\floatFR_sbrenc_aac\freq_sca.c" />
+    <ClCompile Include="enc\floatFR_sbrenc_aac\hybrid.c" />
+    <ClCompile Include="enc\floatFR_sbrenc_aac\invf_est.c" />
+    <ClCompile Include="enc\floatFR_sbrenc_aac\mh_det.c" />
+    <ClCompile Include="enc\floatFR_sbrenc_aac\nf_est.c" />
+    <ClCompile Include="enc\floatFR_sbrenc_aac\ps_bitenc.c" />
+    <ClCompile Include="enc\floatFR_sbrenc_aac\ps_enc.c" />
+    <ClCompile Include="enc\floatFR_sbrenc_aac\qmf_enc.c" />
+    <ClCompile Include="enc\floatFR_sbrenc_aac\sbr_main.c" />
+    <ClCompile Include="enc\floatFR_sbrenc_aac\sbr_misc.c" />
+    <ClCompile Include="enc\floatFR_sbrenc_aac\sbr_ram.c" />
+    <ClCompile Include="enc\floatFR_sbrenc_aac\sbr_rom.c" />
+    <ClCompile Include="enc\floatFR_sbrenc_aac\ton_corr.c" />
+    <ClCompile Include="enc\floatFR_sbrenc_aac\tran_det.c" />
+    <ClCompile Include="enc\psycho_acoustic\band_nrg.c" />
+    <ClCompile Include="enc\psycho_acoustic\block_switch.c" />
+    <ClCompile Include="enc\psycho_acoustic\grp_data.c" />
+    <ClCompile Include="enc\psycho_acoustic\interface.c" />
+    <ClCompile Include="enc\psycho_acoustic\ms_stereo.c" />
+    <ClCompile Include="enc\psycho_acoustic\pre_echo_control.c" />
+    <ClCompile Include="enc\psycho_acoustic\psy_configuration.c" />
+    <ClCompile Include="enc\psycho_acoustic\psy_main.c" />
+    <ClCompile Include="enc\psycho_acoustic\spreading.c" />
+    <ClCompile Include="enc\psycho_acoustic\stprepro.c" />
+    <ClCompile Include="enc\psycho_acoustic\tns.c" />
+    <ClCompile Include="enc\psycho_acoustic\tns_param.c" />
+    <ClCompile Include="enc\psycho_acoustic\transform.c" />
+    <ClCompile Include="enc\quantization_and_coding\adj_thr.c" />
+    <ClCompile Include="enc\quantization_and_coding\dyn_bits.c" />
+    <ClCompile Include="enc\quantization_and_coding\line_pe.c" />
+    <ClCompile Include="enc\quantization_and_coding\qc_main.c" />
+    <ClCompile Include="enc\quantization_and_coding\quantize.c" />
+    <ClCompile Include="enc\quantization_and_coding\sf_estim.c" />
+    <ClCompile Include="enc\quantization_and_coding\stat_bits.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="enc\aacenc.h" />
+    <ClInclude Include="enc\aac_ram.h" />
+    <ClInclude Include="enc\aac_rom.h" />
+    <ClInclude Include="enc\adj_thr.h" />
+    <ClInclude Include="enc\adj_thr_data.h" />
+    <ClInclude Include="enc\bitenc.h" />
+    <ClInclude Include="enc\bit_cnt.h" />
+    <ClInclude Include="enc\block_switch.h" />
+    <ClInclude Include="enc\cfftn.h" />
+    <ClInclude Include="enc\channel_map.h" />
+    <ClInclude Include="enc\cmondata.h" />
+    <ClInclude Include="enc\counters.h" />
+    <ClInclude Include="enc\dyn_bits.h" />
+    <ClInclude Include="enc\FFR_bitbuffer.h" />
+    <ClInclude Include="enc\FloatFR.h" />
+    <ClInclude Include="enc\floatFR_sbrenc_aac\bit_sbr.h" />
+    <ClInclude Include="enc\floatFR_sbrenc_aac\code_env.h" />
+    <ClInclude Include="enc\floatFR_sbrenc_aac\env_bit.h" />
+    <ClInclude Include="enc\floatFR_sbrenc_aac\env_est.h" />
+    <ClInclude Include="enc\floatFR_sbrenc_aac\fram_gen.h" />
+    <ClInclude Include="enc\floatFR_sbrenc_aac\freq_sca.h" />
+    <ClInclude Include="enc\floatFR_sbrenc_aac\hybrid.h" />
+    <ClInclude Include="enc\floatFR_sbrenc_aac\invf_est.h" />
+    <ClInclude Include="enc\floatFR_sbrenc_aac\mh_det.h" />
+    <ClInclude Include="enc\floatFR_sbrenc_aac\nf_est.h" />
+    <ClInclude Include="enc\floatFR_sbrenc_aac\ps_bitenc.h" />
+    <ClInclude Include="enc\floatFR_sbrenc_aac\ps_enc.h" />
+    <ClInclude Include="enc\floatFR_sbrenc_aac\qmf_enc.h" />
+    <ClInclude Include="enc\floatFR_sbrenc_aac\sbr_misc.h" />
+    <ClInclude Include="enc\floatFR_sbrenc_aac\sbr_rom.h" />
+    <ClInclude Include="enc\floatFR_sbrenc_aac\ton_corr.h" />
+    <ClInclude Include="enc\floatFR_sbrenc_aac\tran_det.h" />
+    <ClInclude Include="enc\iir32resample.h" />
+    <ClInclude Include="enc\interface.h" />
+    <ClInclude Include="enc\minmax.h" />
+    <ClInclude Include="enc\psycho_acoustic\band_nrg.h" />
+    <ClInclude Include="enc\psycho_acoustic\grp_data.h" />
+    <ClInclude Include="enc\psycho_acoustic\ms_stereo.h" />
+    <ClInclude Include="enc\psycho_acoustic\pre_echo_control.h" />
+    <ClInclude Include="enc\psycho_acoustic\spreading.h" />
+    <ClInclude Include="enc\psycho_acoustic\transform.h" />
+    <ClInclude Include="enc\psy_configuration.h" />
+    <ClInclude Include="enc\psy_const.h" />
+    <ClInclude Include="enc\psy_data.h" />
+    <ClInclude Include="enc\psy_main.h" />
+    <ClInclude Include="enc\qc_data.h" />
+    <ClInclude Include="enc\qc_main.h" />
+    <ClInclude Include="enc\quantization_and_coding\line_pe.h" />
+    <ClInclude Include="enc\quantization_and_coding\quantize.h" />
+    <ClInclude Include="enc\quantization_and_coding\sf_estim.h" />
+    <ClInclude Include="enc\quantization_and_coding\stat_bits.h" />
+    <ClInclude Include="enc\resampler.h" />
+    <ClInclude Include="enc\sbr.h" />
+    <ClInclude Include="enc\sbr_def.h" />
+    <ClInclude Include="enc\sbr_main.h" />
+    <ClInclude Include="enc\sbr_ram.h" />
+    <ClInclude Include="enc\stprepro.h" />
+    <ClInclude Include="enc\tns.h" />
+    <ClInclude Include="enc\tns_func.h" />
+    <ClInclude Include="enc\tns_param.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{35501BF4-BF58-4D1C-B8F6-F21489F54C21}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libaac</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./enc</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <CompileAs>Default</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>./enc</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

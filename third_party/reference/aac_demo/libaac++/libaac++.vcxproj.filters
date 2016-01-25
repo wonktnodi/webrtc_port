@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="enc">
+      <UniqueIdentifier>{e5ced1e5-843f-494b-a9b2-05b940050a41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enc\bitstream_encoder">
+      <UniqueIdentifier>{d7805f6e-0990-4702-b9d6-ac73b07d9934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enc\floatFR">
+      <UniqueIdentifier>{207cadd7-aa2d-49f8-a2d6-66bb36bc29ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enc\floatFR_bitbuf">
+      <UniqueIdentifier>{9bbb3a99-785d-4f3f-b650-0a01e1774189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enc\floatFR_resamp">
+      <UniqueIdentifier>{7acda916-7287-4328-809d-13244a1392ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enc\floatFR_sbrenc_aac">
+      <UniqueIdentifier>{53d16b41-2bef-4ad7-bd1c-37ee89f902ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enc\psycho_acoustic">
+      <UniqueIdentifier>{fbe3359c-5de7-4b35-9894-12b930e215cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enc\quantization_and_coding">
+      <UniqueIdentifier>{29d60bb0-ef88-4cea-adb2-9317c4297db6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="enc\bitstream_encoder\bit_cnt.c">
+      <Filter>enc\bitstream_encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\bitstream_encoder\bitenc.c">
+      <Filter>enc\bitstream_encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\floatFR\cfftn.c">
+      <Filter>enc\floatFR</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\floatFR\transcendent.c">
+      <Filter>enc\floatFR</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\floatFR_bitbuf\bitbuffer.c">
+      <Filter>enc\floatFR_bitbuf</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\floatFR_resamp\iir32resample.c">
+      <Filter>enc\floatFR_resamp</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\floatFR_resamp\resampler.c">
+      <Filter>enc\floatFR_resamp</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\floatFR_sbrenc_aac\bit_sbr.c">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\floatFR_sbrenc_aac\code_env.c">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\floatFR_sbrenc_aac\env_bit.c">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\floatFR_sbrenc_aac\env_est.c">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\floatFR_sbrenc_aac\fram_gen.c">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\floatFR_sbrenc_aac\freq_sca.c">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\floatFR_sbrenc_aac\hybrid.c">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\floatFR_sbrenc_aac\invf_est.c">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\floatFR_sbrenc_aac\mh_det.c">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\floatFR_sbrenc_aac\nf_est.c">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\floatFR_sbrenc_aac\ps_bitenc.c">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\floatFR_sbrenc_aac\ps_enc.c">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\floatFR_sbrenc_aac\qmf_enc.c">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\floatFR_sbrenc_aac\sbr_main.c">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\floatFR_sbrenc_aac\sbr_misc.c">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\floatFR_sbrenc_aac\sbr_ram.c">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\floatFR_sbrenc_aac\sbr_rom.c">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\floatFR_sbrenc_aac\ton_corr.c">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\floatFR_sbrenc_aac\tran_det.c">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\psycho_acoustic\band_nrg.c">
+      <Filter>enc\psycho_acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\psycho_acoustic\block_switch.c">
+      <Filter>enc\psycho_acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\psycho_acoustic\grp_data.c">
+      <Filter>enc\psycho_acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\psycho_acoustic\interface.c">
+      <Filter>enc\psycho_acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\psycho_acoustic\ms_stereo.c">
+      <Filter>enc\psycho_acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\psycho_acoustic\pre_echo_control.c">
+      <Filter>enc\psycho_acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\psycho_acoustic\psy_configuration.c">
+      <Filter>enc\psycho_acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\psycho_acoustic\psy_main.c">
+      <Filter>enc\psycho_acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\psycho_acoustic\spreading.c">
+      <Filter>enc\psycho_acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\psycho_acoustic\stprepro.c">
+      <Filter>enc\psycho_acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\psycho_acoustic\tns.c">
+      <Filter>enc\psycho_acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\psycho_acoustic\tns_param.c">
+      <Filter>enc\psycho_acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\psycho_acoustic\transform.c">
+      <Filter>enc\psycho_acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\quantization_and_coding\adj_thr.c">
+      <Filter>enc\quantization_and_coding</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\quantization_and_coding\dyn_bits.c">
+      <Filter>enc\quantization_and_coding</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\quantization_and_coding\line_pe.c">
+      <Filter>enc\quantization_and_coding</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\quantization_and_coding\qc_main.c">
+      <Filter>enc\quantization_and_coding</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\quantization_and_coding\quantize.c">
+      <Filter>enc\quantization_and_coding</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\quantization_and_coding\sf_estim.c">
+      <Filter>enc\quantization_and_coding</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\quantization_and_coding\stat_bits.c">
+      <Filter>enc\quantization_and_coding</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\aac_ram.c">
+      <Filter>enc</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\aac_rom.c">
+      <Filter>enc</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\aacenc.c">
+      <Filter>enc</Filter>
+    </ClCompile>
+    <ClCompile Include="enc\channel_map.c">
+      <Filter>enc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="enc\floatFR_sbrenc_aac\bit_sbr.h">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\floatFR_sbrenc_aac\code_env.h">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\floatFR_sbrenc_aac\env_bit.h">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\floatFR_sbrenc_aac\env_est.h">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\floatFR_sbrenc_aac\fram_gen.h">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\floatFR_sbrenc_aac\freq_sca.h">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\floatFR_sbrenc_aac\hybrid.h">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\floatFR_sbrenc_aac\invf_est.h">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\floatFR_sbrenc_aac\mh_det.h">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\floatFR_sbrenc_aac\nf_est.h">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\floatFR_sbrenc_aac\ps_bitenc.h">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\floatFR_sbrenc_aac\ps_enc.h">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\floatFR_sbrenc_aac\qmf_enc.h">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\floatFR_sbrenc_aac\sbr_misc.h">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\floatFR_sbrenc_aac\sbr_rom.h">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\floatFR_sbrenc_aac\ton_corr.h">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\floatFR_sbrenc_aac\tran_det.h">
+      <Filter>enc\floatFR_sbrenc_aac</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\psycho_acoustic\band_nrg.h">
+      <Filter>enc\psycho_acoustic</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\psycho_acoustic\grp_data.h">
+      <Filter>enc\psycho_acoustic</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\psycho_acoustic\ms_stereo.h">
+      <Filter>enc\psycho_acoustic</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\psycho_acoustic\pre_echo_control.h">
+      <Filter>enc\psycho_acoustic</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\psycho_acoustic\spreading.h">
+      <Filter>enc\psycho_acoustic</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\psycho_acoustic\transform.h">
+      <Filter>enc\psycho_acoustic</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\quantization_and_coding\line_pe.h">
+      <Filter>enc\quantization_and_coding</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\quantization_and_coding\quantize.h">
+      <Filter>enc\quantization_and_coding</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\quantization_and_coding\sf_estim.h">
+      <Filter>enc\quantization_and_coding</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\quantization_and_coding\stat_bits.h">
+      <Filter>enc\quantization_and_coding</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\aac_ram.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\aac_rom.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\aacenc.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\adj_thr.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\adj_thr_data.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\bit_cnt.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\bitenc.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\block_switch.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\cfftn.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\channel_map.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\cmondata.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\counters.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\dyn_bits.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\FFR_bitbuffer.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\FloatFR.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\iir32resample.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\interface.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\minmax.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\psy_configuration.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\psy_const.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\psy_data.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\psy_main.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\qc_data.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\qc_main.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\resampler.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\sbr.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\sbr_def.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\sbr_main.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\sbr_ram.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\stprepro.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\tns.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\tns_func.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+    <ClInclude Include="enc\tns_param.h">
+      <Filter>enc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

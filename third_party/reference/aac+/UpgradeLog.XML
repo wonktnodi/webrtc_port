@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="HE-AAC">
+</Property><Property Name="Solution File" Value="D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac+\HE-AAC.sln">
+</Property><Property Name="User Options File" Value="D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac+\HE-AAC.suo">
+</Property><Property Name="Date" Value="2013年7月17日">
+</Property><Property Name="Time" Value="8:55">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="HE-AAC.sln" Description="File successfully backed up as D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac+\HE-AAC.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="HE-AAC.suo" Description="File successfully backed up as D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac+\HE-AAC.suo.old">
+</Event><Event ErrorLevel="0" Project="HE-AAC" Source="HE-AAC\HE-AAC.vcproj" Description="Converting project file 'd:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac+\HE-AAC\HE-AAC.vcproj'.">
+</Event><Event ErrorLevel="1" Project="HE-AAC" Source="HE-AAC\HE-AAC.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="HE-AAC" Source="HE-AAC\HE-AAC.vcproj" Description="Done converting to new project file 'd:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac+\HE-AAC\HE-AAC.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="HE-AAC" Source="HE-AAC\HE-AAC.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="HEAAClib_2008" Source="HEAAClib\HEAAClib_2008.vcproj" Description="Converting project file 'd:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac+\HEAAClib\HEAAClib_2008.vcproj'.">
+</Event><Event ErrorLevel="1" Project="HEAAClib_2008" Source="HEAAClib\HEAAClib_2008.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="HEAAClib_2008" Source="HEAAClib\HEAAClib_2008.vcproj" Description="MSB8012: $(TargetName) ('HEAAClib') does not match the Librarian's OutputFile property value '../lib.vc9/HEAAClib_d.lib' ('HEAAClib_d') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetName) property value matches the value specified in %(Lib.OutputFile).">
+</Event><Event ErrorLevel="1" Project="HEAAClib_2008" Source="HEAAClib\HEAAClib_2008.vcproj" Description="MSB8012: $(TargetPath) ('D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac+\Debug\HEAAClib.lib') does not match the Librarian's OutputFile property value '../lib.vc9/HEAAClib_d.lib' ('D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac+\../lib.vc9/HEAAClib_d.lib') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Lib.OutputFile).">
+</Event><Event ErrorLevel="1" Project="HEAAClib_2008" Source="HEAAClib\HEAAClib_2008.vcproj" Description="MSB8012: $(TargetPath) ('D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac+\Release\HEAAClib.lib') does not match the Librarian's OutputFile property value '../lib.vc9/HEAAClib.lib' ('D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac+\../lib.vc9/HEAAClib.lib') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Lib.OutputFile).">
+</Event><Event ErrorLevel="0" Project="HEAAClib_2008" Source="HEAAClib\HEAAClib_2008.vcproj" Description="Done converting to new project file 'd:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac+\HEAAClib\HEAAClib_2008.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="HEAAClib_2008" Source="HEAAClib\HEAAClib_2008.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="HEAACSample" Source="HEAACSample\HEAACSample.vcproj" Description="Converting project file 'd:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac+\HEAACSample\HEAACSample.vcproj'.">
+</Event><Event ErrorLevel="1" Project="HEAACSample" Source="HEAACSample\HEAACSample.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="HEAACSample" Source="HEAACSample\HEAACSample.vcproj" Description="Done converting to new project file 'd:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac+\HEAACSample\HEAACSample.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="HEAACSample" Source="HEAACSample\HEAACSample.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="HE-AAC.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="HE-AAC.sln" Description="Converted">
+</Event></UpgradeLog>

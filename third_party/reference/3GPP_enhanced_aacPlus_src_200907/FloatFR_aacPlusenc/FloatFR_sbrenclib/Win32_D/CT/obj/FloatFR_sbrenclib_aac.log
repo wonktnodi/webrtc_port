@@ -1,0 +1,61 @@
+﻿Build started 7/15/2013 10:03:06 AM.
+     1>Project "d:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\3GPP_enhanced_aacPlus_src_200907\FloatFR_aacPlusenc\FloatFR_sbrenclib\FloatFR_sbrenclib_aac.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Win32_D/CT/obj\FloatFR_sbrenclib_aac.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         f:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\src /I..\util /I. /I..\FloatFR_bitbuflib /I..\FloatFRlib /I..\FloatFR_fastaacenc /I..\FloatFR_fastaacenc\src /ZI /nologo- /W3 /WX- /Od /Oy- /D _DEBUG /D _LIB /D WIN32 /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Win32_D/CT/obj\\" /Fd".\Win32_D/CT/obj\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt src\bit_sbr.c src\code_env.c src\env_bit.c src\env_est.c src\fram_gen.c src\freq_sca.c src\hybrid.c src\invf_est.c src\mh_det.c src\nf_est.c src\ps_bitenc.c src\ps_enc.c src\qmf_enc.c src\sbr_main.c src\sbr_misc.c src\sbr_ram.c src\sbr_rom.c src\ton_corr.c src\tran_det.c
+         Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.40219.01 for 80x86
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         cl /c /I.\src /I..\util /I. /I..\FloatFR_bitbuflib /I..\FloatFRlib /I..\FloatFR_fastaacenc /I..\FloatFR_fastaacenc\src /ZI /nologo- /W3 /WX- /Od /Oy- /D _DEBUG /D _LIB /D WIN32 /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Win32_D/CT/obj\\" /Fd".\Win32_D/CT/obj\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt src\bit_sbr.c src\code_env.c src\env_bit.c src\env_est.c src\fram_gen.c src\freq_sca.c src\hybrid.c src\invf_est.c src\mh_det.c src\nf_est.c src\ps_bitenc.c src\ps_enc.c src\qmf_enc.c src\sbr_main.c src\sbr_misc.c src\sbr_ram.c src\sbr_rom.c src\ton_corr.c src\tran_det.c
+     1>cl : Command line warning D9035: option 'nologo-' has been deprecated and will be removed in a future release
+         
+         bit_sbr.c
+         code_env.c
+         env_bit.c
+         env_est.c
+         fram_gen.c
+         freq_sca.c
+         hybrid.c
+         invf_est.c
+         mh_det.c
+         nf_est.c
+         ps_bitenc.c
+         ps_enc.c
+         qmf_enc.c
+         sbr_main.c
+         sbr_misc.c
+         sbr_ram.c
+         sbr_rom.c
+         ton_corr.c
+         tran_det.c
+         Generating Code...
+       Lib:
+         f:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\Win32_D/CT\FloatFR_sbrenclib_aac.lib" /NOLOGO .\Win32_D/CT/obj\bit_sbr.obj
+         .\Win32_D/CT/obj\code_env.obj
+         .\Win32_D/CT/obj\env_bit.obj
+         .\Win32_D/CT/obj\env_est.obj
+         .\Win32_D/CT/obj\fram_gen.obj
+         .\Win32_D/CT/obj\freq_sca.obj
+         .\Win32_D/CT/obj\hybrid.obj
+         .\Win32_D/CT/obj\invf_est.obj
+         .\Win32_D/CT/obj\mh_det.obj
+         .\Win32_D/CT/obj\nf_est.obj
+         .\Win32_D/CT/obj\ps_bitenc.obj
+         .\Win32_D/CT/obj\ps_enc.obj
+         .\Win32_D/CT/obj\qmf_enc.obj
+         .\Win32_D/CT/obj\sbr_main.obj
+         .\Win32_D/CT/obj\sbr_misc.obj
+         .\Win32_D/CT/obj\sbr_ram.obj
+         .\Win32_D/CT/obj\sbr_rom.obj
+         .\Win32_D/CT/obj\ton_corr.obj
+         .\Win32_D/CT/obj\tran_det.obj
+         FloatFR_sbrenclib_aac.vcxproj -> d:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\3GPP_enhanced_aacPlus_src_200907\FloatFR_aacPlusenc\FloatFR_sbrenclib\.\Win32_D/CT\FloatFR_sbrenclib_aac.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Win32_D/CT/obj\FloatFR_sbrenclib_aac.unsuccessfulbuild".
+         Touching ".\Win32_D/CT/obj\FloatFR_sbrenclib_aac.lastbuildstate".
+     1>Done Building Project "d:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\3GPP_enhanced_aacPlus_src_200907\FloatFR_aacPlusenc\FloatFR_sbrenclib\FloatFR_sbrenclib_aac.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.27

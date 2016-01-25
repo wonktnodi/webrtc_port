@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HEAAClib", "HEAAClib.vcproj", "{6455911F-6C06-4B09-B2C7-F4C4611D4992}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+		Release(Optimized) = Release(Optimized)
+		ReleaseDLL = ReleaseDLL
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6455911F-6C06-4B09-B2C7-F4C4611D4992}.Debug.ActiveCfg = Debug|Win32
+		{6455911F-6C06-4B09-B2C7-F4C4611D4992}.Debug.Build.0 = Debug|Win32
+		{6455911F-6C06-4B09-B2C7-F4C4611D4992}.Release.ActiveCfg = Release|Win32
+		{6455911F-6C06-4B09-B2C7-F4C4611D4992}.Release.Build.0 = Release|Win32
+		{6455911F-6C06-4B09-B2C7-F4C4611D4992}.Release(Optimized).ActiveCfg = Release(Optimized)|Win32
+		{6455911F-6C06-4B09-B2C7-F4C4611D4992}.Release(Optimized).Build.0 = Release(Optimized)|Win32
+		{6455911F-6C06-4B09-B2C7-F4C4611D4992}.ReleaseDLL.ActiveCfg = ReleaseDLL|Win32
+		{6455911F-6C06-4B09-B2C7-F4C4611D4992}.ReleaseDLL.Build.0 = ReleaseDLL|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>HEAAClib</ProjectName>
+    <ProjectGuid>{6CDC14C4-2A84-4DE4-B8EB-777A16D9B654}</ProjectGuid>
+    <RootNamespace>HEAAClib</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>../lib.vc9/$(ProjectName)_d.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>../lib.vc9/$(ProjectName).lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="aac_ram_dec.cpp" />
+    <ClCompile Include="aac_ram_enc.cpp" />
+    <ClCompile Include="aac_rom_dec.cpp" />
+    <ClCompile Include="aac_rom_enc.cpp" />
+    <ClCompile Include="aacdecoder.cpp" />
+    <ClCompile Include="aacenc.cpp" />
+    <ClCompile Include="adj_thr.cpp" />
+    <ClCompile Include="band_nrg.cpp" />
+    <ClCompile Include="bit_cnt.cpp" />
+    <ClCompile Include="bit_sbr.cpp" />
+    <ClCompile Include="bitbuffer.cpp" />
+    <ClCompile Include="bitenc.cpp" />
+    <ClCompile Include="bitstream.cpp" />
+    <ClCompile Include="block.cpp" />
+    <ClCompile Include="block_switch.cpp" />
+    <ClCompile Include="cfftn.cpp" />
+    <ClCompile Include="channel.cpp" />
+    <ClCompile Include="channel_map.cpp" />
+    <ClCompile Include="channelinfo.cpp" />
+    <ClCompile Include="code_env.cpp" />
+    <ClCompile Include="conceal.cpp" />
+    <ClCompile Include="dyn_bits.cpp" />
+    <ClCompile Include="env_bit.cpp" />
+    <ClCompile Include="env_calc.cpp" />
+    <ClCompile Include="env_dec.cpp" />
+    <ClCompile Include="env_est.cpp" />
+    <ClCompile Include="env_extr.cpp" />
+    <ClCompile Include="FFR_aacPLUScheck.cpp" />
+    <ClCompile Include="flc.cpp" />
+    <ClCompile Include="fram_gen.cpp" />
+    <ClCompile Include="freq_sca_dec.cpp" />
+    <ClCompile Include="freq_sca_enc.cpp" />
+    <ClCompile Include="grp_data.cpp" />
+    <ClCompile Include="HEAAC_DEC.cpp" />
+    <ClCompile Include="HEAAC_ENC.cpp" />
+    <ClCompile Include="huff_dec.cpp" />
+    <ClCompile Include="hybrid_dec.cpp" />
+    <ClCompile Include="hybrid_enc.cpp" />
+    <ClCompile Include="imdct.cpp" />
+    <ClCompile Include="interface.cpp" />
+    <ClCompile Include="invf_est.cpp" />
+    <ClCompile Include="line_pe.cpp" />
+    <ClCompile Include="longblock.cpp" />
+    <ClCompile Include="lpp_tran.cpp" />
+    <ClCompile Include="mh_det.cpp" />
+    <ClCompile Include="ms_stereo.cpp" />
+    <ClCompile Include="nf_est.cpp" />
+    <ClCompile Include="pns.cpp" />
+    <ClCompile Include="pre_echo_control.cpp" />
+    <ClCompile Include="ps_bitdec.cpp" />
+    <ClCompile Include="ps_bitenc.cpp" />
+    <ClCompile Include="ps_dec.cpp" />
+    <ClCompile Include="ps_enc.cpp" />
+    <ClCompile Include="psy_configuration.cpp" />
+    <ClCompile Include="psy_main.cpp" />
+    <ClCompile Include="pulsedata.cpp" />
+    <ClCompile Include="qc_main.cpp" />
+    <ClCompile Include="qmf_dec.cpp" />
+    <ClCompile Include="qmf_enc.cpp" />
+    <ClCompile Include="quantize.cpp" />
+    <ClCompile Include="sbr_bitb.cpp" />
+    <ClCompile Include="sbr_crc.cpp" />
+    <ClCompile Include="sbr_dec.cpp" />
+    <ClCompile Include="sbr_fft.cpp" />
+    <ClCompile Include="sbr_main.cpp" />
+    <ClCompile Include="sbr_misc.cpp" />
+    <ClCompile Include="sbr_ram_dec.cpp" />
+    <ClCompile Include="sbr_ram_enc.cpp" />
+    <ClCompile Include="sbr_rom_dec.cpp" />
+    <ClCompile Include="sbr_rom_enc.cpp" />
+    <ClCompile Include="sbrdecoder.cpp" />
+    <ClCompile Include="sf_estim.cpp" />
+    <ClCompile Include="shortblock.cpp" />
+    <ClCompile Include="spreading.cpp" />
+    <ClCompile Include="stat_bits.cpp" />
+    <ClCompile Include="stereo.cpp" />
+    <ClCompile Include="stprepro.cpp" />
+    <ClCompile Include="streaminfo.cpp" />
+    <ClCompile Include="tns_dec.cpp" />
+    <ClCompile Include="tns_enc.cpp" />
+    <ClCompile Include="tns_param.cpp" />
+    <ClCompile Include="ton_corr.cpp" />
+    <ClCompile Include="tran_det.cpp" />
+    <ClCompile Include="transcendent.cpp" />
+    <ClCompile Include="transform.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aac_ram_dec.h" />
+    <ClInclude Include="aac_ram_enc.h" />
+    <ClInclude Include="aac_rom_dec.h" />
+    <ClInclude Include="aac_rom_enc.h" />
+    <ClInclude Include="aacdecoder.h" />
+    <ClInclude Include="aacdecoder_def.h" />
+    <ClInclude Include="aacenc.h" />
+    <ClInclude Include="adj_thr.h" />
+    <ClInclude Include="adj_thr_data.h" />
+    <ClInclude Include="band_nrg.h" />
+    <ClInclude Include="bit_cnt.h" />
+    <ClInclude Include="bit_sbr.h" />
+    <ClInclude Include="bitenc.h" />
+    <ClInclude Include="bitstream.h" />
+    <ClInclude Include="block.h" />
+    <ClInclude Include="block_switch.h" />
+    <ClInclude Include="cfftn.h" />
+    <ClInclude Include="channel.h" />
+    <ClInclude Include="channel_map.h" />
+    <ClInclude Include="channelinfo.h" />
+    <ClInclude Include="channelinfo2.h" />
+    <ClInclude Include="cmondata.h" />
+    <ClInclude Include="code_env.h" />
+    <ClInclude Include="conceal.h" />
+    <ClInclude Include="dyn_bits.h" />
+    <ClInclude Include="env_bit.h" />
+    <ClInclude Include="env_calc.h" />
+    <ClInclude Include="env_dec.h" />
+    <ClInclude Include="env_est.h" />
+    <ClInclude Include="env_extr.h" />
+    <ClInclude Include="FFR_aacPLUScheck.h" />
+    <ClInclude Include="FFR_bitbuffer.h" />
+    <ClInclude Include="flc.h" />
+    <ClInclude Include="FloatFR.h" />
+    <ClInclude Include="fram_gen.h" />
+    <ClInclude Include="freq_sca_dec.h" />
+    <ClInclude Include="freq_sca_enc.h" />
+    <ClInclude Include="grp_data.h" />
+    <ClInclude Include="HEAAC_DEC.h" />
+    <ClInclude Include="HEAAC_ENC.h" />
+    <ClInclude Include="huff_dec.h" />
+    <ClInclude Include="hybrid_dec.h" />
+    <ClInclude Include="hybrid_enc.h" />
+    <ClInclude Include="imdct.h" />
+    <ClInclude Include="interface.h" />
+    <ClInclude Include="invf_est.h" />
+    <ClInclude Include="line_pe.h" />
+    <ClInclude Include="lpp_tran.h" />
+    <ClInclude Include="mh_det.h" />
+    <ClInclude Include="minmax.h" />
+    <ClInclude Include="ms_stereo.h" />
+    <ClInclude Include="nf_est.h" />
+    <ClInclude Include="overlapadd.h" />
+    <ClInclude Include="pns.h" />
+    <ClInclude Include="pre_echo_control.h" />
+    <ClInclude Include="ps_bitdec.h" />
+    <ClInclude Include="ps_bitenc.h" />
+    <ClInclude Include="ps_dec.h" />
+    <ClInclude Include="ps_enc.h" />
+    <ClInclude Include="psy_configuration.h" />
+    <ClInclude Include="psy_const.h" />
+    <ClInclude Include="psy_data.h" />
+    <ClInclude Include="psy_main.h" />
+    <ClInclude Include="pulsedata.h" />
+    <ClInclude Include="qc_data.h" />
+    <ClInclude Include="qc_main.h" />
+    <ClInclude Include="qmf_dec.h" />
+    <ClInclude Include="qmf_enc.h" />
+    <ClInclude Include="quantize.h" />
+    <ClInclude Include="sbr.h" />
+    <ClInclude Include="sbr_bitb.h" />
+    <ClInclude Include="sbr_const.h" />
+    <ClInclude Include="sbr_crc.h" />
+    <ClInclude Include="sbr_dec.h" />
+    <ClInclude Include="sbr_def.h" />
+    <ClInclude Include="sbr_encoder_def.h" />
+    <ClInclude Include="sbr_fft.h" />
+    <ClInclude Include="sbr_main.h" />
+    <ClInclude Include="sbr_misc.h" />
+    <ClInclude Include="sbr_ram_dec.h" />
+    <ClInclude Include="sbr_ram_enc.h" />
+    <ClInclude Include="sbr_rom_dec.h" />
+    <ClInclude Include="sbr_rom_enc.h" />
+    <ClInclude Include="sbrdecoder.h" />
+    <ClInclude Include="sbrdecsettings.h" />
+    <ClInclude Include="sf_estim.h" />
+    <ClInclude Include="spreading.h" />
+    <ClInclude Include="stat_bits.h" />
+    <ClInclude Include="stereo.h" />
+    <ClInclude Include="stprepro.h" />
+    <ClInclude Include="streaminfo.h" />
+    <ClInclude Include="tns_dec.h" />
+    <ClInclude Include="tns_enc.h" />
+    <ClInclude Include="tns_func.h" />
+    <ClInclude Include="tns_param.h" />
+    <ClInclude Include="ton_corr.h" />
+    <ClInclude Include="tran_det.h" />
+    <ClInclude Include="transform.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

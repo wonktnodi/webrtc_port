@@ -1,0 +1,55 @@
+﻿Build started 7/15/2013 10:06:15 AM.
+     1>Project "d:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\3GPP_enhanced_aacPlus_src_200907\FloatFR_aacPlusdec\FloatFR_sbrdeclib\FloatFR_sbrdeclib_aac.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Win32_D/CT/obj\FloatFR_sbrdeclib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         f:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./ /I../FloatFRlib /I../FloatFR_aacdec /I../FloatFR_aacdec/src /I../FloatFR_bitbuflib /I../mathlib /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _LIB /D WIN32 /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Win32_D/CT/obj\\" /Fd".\Win32_D/CT/obj\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt src\env_calc.c src\env_dec.c src\env_extr.c src\FFR_aacPLUScheck.c src\freq_sca.c src\huff_dec.c src\hybrid.c src\lpp_tran.c src\ps_bitdec.c src\ps_dec.c src\qmf_dec.c src\sbr_bitb.c src\sbr_crc.c src\sbr_dec.c src\sbr_fft.c src\sbr_ram.c src\sbr_rom.c src\sbrdecoder.c
+         sbrdecoder.c
+         sbr_rom.c
+         sbr_ram.c
+         sbr_fft.c
+         sbr_dec.c
+         sbr_crc.c
+         sbr_bitb.c
+         qmf_dec.c
+         ps_dec.c
+         ps_bitdec.c
+         lpp_tran.c
+         hybrid.c
+         huff_dec.c
+         freq_sca.c
+         FFR_aacPLUScheck.c
+         env_extr.c
+         env_dec.c
+         env_calc.c
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(d:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\3GPP_enhanced_aacPlus_src_200907\FloatFR_aacPlusdec\FloatFR_sbrdeclib\.\Win32_D/CT\FloatFR_sbrdeclib.lib) does not match the Library's OutputFile property value (d:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\3GPP_enhanced_aacPlus_src_200907\FloatFR_aacPlusdec\FloatFR_sbrdeclib\Win32_D\CT\FloatFR_sbrdeclib_aac.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(FloatFR_sbrdeclib) does not match the Library's OutputFile property value (FloatFR_sbrdeclib_aac). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         f:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\Win32_D/CT\FloatFR_sbrdeclib_aac.lib" /NOLOGO .\Win32_D/CT/obj\env_calc.obj
+         .\Win32_D/CT/obj\env_dec.obj
+         .\Win32_D/CT/obj\env_extr.obj
+         .\Win32_D/CT/obj\FFR_aacPLUScheck.obj
+         .\Win32_D/CT/obj\freq_sca.obj
+         .\Win32_D/CT/obj\huff_dec.obj
+         .\Win32_D/CT/obj\hybrid.obj
+         .\Win32_D/CT/obj\lpp_tran.obj
+         .\Win32_D/CT/obj\ps_bitdec.obj
+         .\Win32_D/CT/obj\ps_dec.obj
+         .\Win32_D/CT/obj\qmf_dec.obj
+         .\Win32_D/CT/obj\sbr_bitb.obj
+         .\Win32_D/CT/obj\sbr_crc.obj
+         .\Win32_D/CT/obj\sbr_dec.obj
+         .\Win32_D/CT/obj\sbr_fft.obj
+         .\Win32_D/CT/obj\sbr_ram.obj
+         .\Win32_D/CT/obj\sbr_rom.obj
+         .\Win32_D/CT/obj\sbrdecoder.obj
+         FloatFR_sbrdeclib_aac.vcxproj -> d:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\3GPP_enhanced_aacPlus_src_200907\FloatFR_aacPlusdec\FloatFR_sbrdeclib\.\Win32_D/CT\FloatFR_sbrdeclib.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Win32_D/CT/obj\FloatFR_sbrdeclib.unsuccessfulbuild".
+         Touching ".\Win32_D/CT/obj\FloatFR_sbrdeclib.lastbuildstate".
+     1>Done Building Project "d:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\3GPP_enhanced_aacPlus_src_200907\FloatFR_aacPlusdec\FloatFR_sbrdeclib\FloatFR_sbrdeclib_aac.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.76

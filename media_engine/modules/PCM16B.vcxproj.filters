@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="audio_coding">
+      <UniqueIdentifier>{f6c4e466-e296-4fe9-8ae0-da63e82b6a39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_coding\codecs">
+      <UniqueIdentifier>{6f83b0d4-ac9d-4a07-bf7b-7ebe2c4957f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_coding\codecs\pcm16b">
+      <UniqueIdentifier>{f1a25d6e-aa76-4eb5-95db-883d4981e293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_coding\codecs\pcm16b\include">
+      <UniqueIdentifier>{3d78eabf-bb90-47f3-81b7-7f84a4350d06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="audio_coding\codecs\pcm16b\include\pcm16b.h">
+      <Filter>audio_coding\codecs\pcm16b\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="audio_coding\codecs\pcm16b\pcm16b.c">
+      <Filter>audio_coding\codecs\pcm16b</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

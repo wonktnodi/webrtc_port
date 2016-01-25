@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="remote_bitrate_estimator">
+      <UniqueIdentifier>{3DB390FF-BC4A-DF77-CA3F-0B9EC8BF5CFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="remote_bitrate_estimator\include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="remote_bitrate_estimator\include\mock">
+      <UniqueIdentifier>{7C4729C5-C564-467B-5ED9-492FD611B9BF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="modules.gyp"/>
+    <ClCompile Include="remote_bitrate_estimator\remote_bitrate_estimator_unittest.cc">
+      <Filter>remote_bitrate_estimator</Filter>
+    </ClCompile>
+    <ClCompile Include="remote_bitrate_estimator\remote_bitrate_estimator_unittest_helper.cc">
+      <Filter>remote_bitrate_estimator</Filter>
+    </ClCompile>
+    <ClCompile Include="remote_bitrate_estimator\rtp_to_ntp_unittest.cc">
+      <Filter>remote_bitrate_estimator</Filter>
+    </ClCompile>
+    <ClCompile Include="remote_bitrate_estimator\bitrate_estimator_unittest.cc">
+      <Filter>remote_bitrate_estimator</Filter>
+    </ClCompile>
+    <ClInclude Include="remote_bitrate_estimator\remote_bitrate_estimator_unittest_helper.h">
+      <Filter>remote_bitrate_estimator</Filter>
+    </ClInclude>
+    <ClInclude Include="remote_bitrate_estimator\include\mock\mock_remote_bitrate_observer.h">
+      <Filter>remote_bitrate_estimator\include\mock</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

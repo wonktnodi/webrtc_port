@@ -1,0 +1,21 @@
+﻿Build started 7/15/2013 10:03:06 AM.
+     1>Project "d:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\3GPP_enhanced_aacPlus_src_200907\FloatFR_aacPlusenc\FloatFR_resamplib\FloatFR_resamplib.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Win32_D/CT/obj\FloatFR_resamplib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         f:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\ /I..\FloatFRlib /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Win32_D/CT/obj\\" /Fd".\Win32_D/CT/obj\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt src\iir32resample.c src\resampler.c
+         resampler.c
+         iir32resample.c
+         Generating Code...
+       Lib:
+         f:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\Win32_D/CT\FloatFR_resamplib.lib" /NOLOGO .\Win32_D/CT/obj\iir32resample.obj
+         .\Win32_D/CT/obj\resampler.obj
+         FloatFR_resamplib.vcxproj -> d:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\3GPP_enhanced_aacPlus_src_200907\FloatFR_aacPlusenc\FloatFR_resamplib\.\Win32_D/CT\FloatFR_resamplib.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Win32_D/CT/obj\FloatFR_resamplib.unsuccessfulbuild".
+         Touching ".\Win32_D/CT/obj\FloatFR_resamplib.lastbuildstate".
+     1>Done Building Project "d:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\3GPP_enhanced_aacPlus_src_200907\FloatFR_aacPlusenc\FloatFR_resamplib\FloatFR_resamplib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.20

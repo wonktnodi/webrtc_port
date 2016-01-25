@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="utility\source\audio_frame_operations.cc">
+      <Filter>utility\source</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\source\coder.cc">
+      <Filter>utility\source</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\source\file_player_impl.cc">
+      <Filter>utility\source</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\source\file_recorder_impl.cc">
+      <Filter>utility\source</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\source\frame_scaler.cc">
+      <Filter>utility\source</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\source\process_thread_impl.cc">
+      <Filter>utility\source</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\source\rtp_dump_impl.cc">
+      <Filter>utility\source</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\source\str_convert.cc">
+      <Filter>utility\source</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\source\video_coder.cc">
+      <Filter>utility\source</Filter>
+    </ClCompile>
+    <ClCompile Include="utility\source\video_frames_queue.cc">
+      <Filter>utility\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utility\interface\audio_frame_operations.h">
+      <Filter>utility\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\source\coder.h">
+      <Filter>utility\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\interface\file_player.h">
+      <Filter>utility\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\source\file_player_impl.h">
+      <Filter>utility\source</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\source\file_recorder_impl.h">
+      <Filter>utility\source</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\source\process_thread_impl.h">
+      <Filter>utility\source</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\source\rtp_dump_impl.h">
+      <Filter>utility\source</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\interface\file_recorder.h">
+      <Filter>utility\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\interface\rtp_dump.h">
+      <Filter>utility\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\interface\process_thread.h">
+      <Filter>utility\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="utility\interface\str_convert.h">
+      <Filter>utility\interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="utility">
+      <UniqueIdentifier>{5d9d02f1-17eb-4a81-be51-1a45c8b7fdf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\source">
+      <UniqueIdentifier>{dff06f06-68cc-423a-b5fd-c5d018d38cd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility\interface">
+      <UniqueIdentifier>{ae059a9e-c6be-4c14-a227-f48c5e7cff96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

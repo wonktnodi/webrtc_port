@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="audio_data_segment">
+      <UniqueIdentifier>{b40e2f8c-80a7-49b8-9efc-029974082605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_data_segment\include">
+      <UniqueIdentifier>{59f5883a-e166-4276-94ab-badc50263dd2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="audio_data_segment\include\audio_data_combiner.h">
+      <Filter>audio_data_segment\include</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_data_segment\include\audio_data_separator.h">
+      <Filter>audio_data_segment\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="audio_data_segment\audio_data_combiner.cc">
+      <Filter>audio_data_segment</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_data_segment\audio_data_separator.cc">
+      <Filter>audio_data_segment</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

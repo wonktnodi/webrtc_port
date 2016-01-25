@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aac_ram_dec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aac_ram_enc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aac_rom_dec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aac_rom_enc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aacdecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aacenc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="adj_thr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="band_nrg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bit_cnt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bit_sbr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bitbuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bitenc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bitstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="block_switch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cfftn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="channel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="channel_map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="channelinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="code_env.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="conceal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dyn_bits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="env_bit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="env_calc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="env_dec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="env_est.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="env_extr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FFR_aacPLUScheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="flc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fram_gen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="freq_sca_dec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="freq_sca_enc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="grp_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HEAAC_DEC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HEAAC_ENC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="huff_dec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hybrid_dec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hybrid_enc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imdct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="invf_est.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="line_pe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="longblock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lpp_tran.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mh_det.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ms_stereo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nf_est.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pns.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pre_echo_control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ps_bitdec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ps_bitenc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ps_dec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ps_enc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="psy_configuration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="psy_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pulsedata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qc_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qmf_dec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qmf_enc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quantize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sbr_bitb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sbr_crc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sbr_dec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sbr_fft.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sbr_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sbr_misc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sbr_ram_dec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sbr_ram_enc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sbr_rom_dec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sbr_rom_enc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sbrdecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sf_estim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shortblock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="spreading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stat_bits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stereo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stprepro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="streaminfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tns_dec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tns_enc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tns_param.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ton_corr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tran_det.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transcendent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aac_ram_dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aac_ram_enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aac_rom_dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aac_rom_enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aacdecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aacdecoder_def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aacenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adj_thr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adj_thr_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="band_nrg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bit_cnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bit_sbr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bitenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bitstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="block_switch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cfftn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="channel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="channel_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="channelinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="channelinfo2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cmondata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="code_env.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="conceal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dyn_bits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="env_bit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="env_calc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="env_dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="env_est.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="env_extr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FFR_aacPLUScheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FFR_bitbuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="flc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatFR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fram_gen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="freq_sca_dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="freq_sca_enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="grp_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HEAAC_DEC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HEAAC_ENC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="huff_dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hybrid_dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hybrid_enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imdct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="invf_est.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="line_pe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lpp_tran.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mh_det.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="minmax.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ms_stereo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nf_est.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="overlapadd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pns.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pre_echo_control.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ps_bitdec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ps_bitenc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ps_dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ps_enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="psy_configuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="psy_const.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="psy_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="psy_main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pulsedata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qc_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qc_main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qmf_dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qmf_enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="quantize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sbr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sbr_bitb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sbr_const.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sbr_crc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sbr_dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sbr_def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sbr_encoder_def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sbr_fft.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sbr_main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sbr_misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sbr_ram_dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sbr_ram_enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sbr_rom_dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sbr_rom_enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sbrdecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sbrdecsettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sf_estim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="spreading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stat_bits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stereo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stprepro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="streaminfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tns_dec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tns_enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tns_func.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tns_param.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ton_corr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tran_det.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

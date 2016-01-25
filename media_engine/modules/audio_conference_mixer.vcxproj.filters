@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="audio_conference_mixer\source\audio_conference_mixer_impl.cc">
+      <Filter>audio_conference_mixer\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_conference_mixer\source\audio_frame_manipulator.cc">
+      <Filter>audio_conference_mixer\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_conference_mixer\source\level_indicator.cc">
+      <Filter>audio_conference_mixer\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_conference_mixer\source\time_scheduler.cc">
+      <Filter>audio_conference_mixer\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="audio_conference_mixer\interface\audio_conference_mixer.h">
+      <Filter>audio_conference_mixer\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_conference_mixer\interface\audio_conference_mixer_defines.h">
+      <Filter>audio_conference_mixer\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_conference_mixer\source\time_scheduler.h">
+      <Filter>audio_conference_mixer\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_conference_mixer\source\audio_conference_mixer_impl.h">
+      <Filter>audio_conference_mixer\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_conference_mixer\source\audio_frame_manipulator.h">
+      <Filter>audio_conference_mixer\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_conference_mixer\source\level_indicator.h">
+      <Filter>audio_conference_mixer\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_conference_mixer\source\memory_pool.h">
+      <Filter>audio_conference_mixer\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_conference_mixer\source\memory_pool_posix.h">
+      <Filter>audio_conference_mixer\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_conference_mixer\source\memory_pool_win.h">
+      <Filter>audio_conference_mixer\source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="audio_conference_mixer">
+      <UniqueIdentifier>{095e6c55-2302-4786-a281-c4bb227cdbc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_conference_mixer\interface">
+      <UniqueIdentifier>{80a71e57-8adb-47f8-8ce8-6e3615a39954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_conference_mixer\source">
+      <UniqueIdentifier>{d65d42af-1977-40ce-8f81-4d6f0dc7b2ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

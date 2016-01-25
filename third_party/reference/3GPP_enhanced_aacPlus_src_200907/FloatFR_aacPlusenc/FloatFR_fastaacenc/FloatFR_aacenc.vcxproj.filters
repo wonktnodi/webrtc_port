@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Encoder core">
+      <UniqueIdentifier>{eecdefab-df8b-4655-aebb-9ec759ca095d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encoder core\Psycho Acoustic">
+      <UniqueIdentifier>{bee0f0f6-eac5-4498-b5e0-0f0fcdfcb2d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encoder core\Quantization and Coding">
+      <UniqueIdentifier>{08a2317c-9b0a-4e08-acaf-92bc6c26117d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Encoder core\Bitstream Encoder">
+      <UniqueIdentifier>{ce66b2f9-5a88-4941-bf0c-96863968fcb2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\band_nrg.c">
+      <Filter>Encoder core\Psycho Acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\block_switch.c">
+      <Filter>Encoder core\Psycho Acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\grp_data.c">
+      <Filter>Encoder core\Psycho Acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\interface.c">
+      <Filter>Encoder core\Psycho Acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ms_stereo.c">
+      <Filter>Encoder core\Psycho Acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pre_echo_control.c">
+      <Filter>Encoder core\Psycho Acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\psy_configuration.c">
+      <Filter>Encoder core\Psycho Acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\psy_main.c">
+      <Filter>Encoder core\Psycho Acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spreading.c">
+      <Filter>Encoder core\Psycho Acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stprepro.c">
+      <Filter>Encoder core\Psycho Acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tns.c">
+      <Filter>Encoder core\Psycho Acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tns_param.c">
+      <Filter>Encoder core\Psycho Acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\transform.c">
+      <Filter>Encoder core\Psycho Acoustic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\adj_thr.c">
+      <Filter>Encoder core\Quantization and Coding</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dyn_bits.c">
+      <Filter>Encoder core\Quantization and Coding</Filter>
+    </ClCompile>
+    <ClCompile Include="src\line_pe.c">
+      <Filter>Encoder core\Quantization and Coding</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qc_main.c">
+      <Filter>Encoder core\Quantization and Coding</Filter>
+    </ClCompile>
+    <ClCompile Include="src\quantize.c">
+      <Filter>Encoder core\Quantization and Coding</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sf_estim.c">
+      <Filter>Encoder core\Quantization and Coding</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stat_bits.c">
+      <Filter>Encoder core\Quantization and Coding</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bit_cnt.c">
+      <Filter>Encoder core\Bitstream Encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bitenc.c">
+      <Filter>Encoder core\Bitstream Encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="src\aac_ram.c" />
+    <ClCompile Include="src\aac_rom.c" />
+    <ClCompile Include="src\aacenc.c" />
+    <ClCompile Include="src\channel_map.c" />
+  </ItemGroup>
+</Project>

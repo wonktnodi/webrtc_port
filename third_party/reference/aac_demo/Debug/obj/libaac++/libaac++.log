@@ -1,0 +1,125 @@
+﻿Build started 7/17/2013 10:07:05 AM.
+     1>Project "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\libaac++\libaac++.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\libaac++.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         f:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./enc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\\" /Fd"D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt enc\aacenc.c enc\aac_ram.c enc\aac_rom.c enc\bitstream_encoder\bitenc.c enc\bitstream_encoder\bit_cnt.c enc\channel_map.c enc\floatFR\cfftn.c enc\floatFR\transcendent.c enc\floatFR_bitbuf\bitbuffer.c enc\floatFR_resamp\iir32resample.c enc\floatFR_resamp\resampler.c enc\floatFR_sbrenc_aac\bit_sbr.c enc\floatFR_sbrenc_aac\code_env.c enc\floatFR_sbrenc_aac\env_bit.c enc\floatFR_sbrenc_aac\env_est.c enc\floatFR_sbrenc_aac\fram_gen.c enc\floatFR_sbrenc_aac\freq_sca.c enc\floatFR_sbrenc_aac\hybrid.c enc\floatFR_sbrenc_aac\invf_est.c enc\floatFR_sbrenc_aac\mh_det.c enc\floatFR_sbrenc_aac\nf_est.c enc\floatFR_sbrenc_aac\ps_bitenc.c enc\floatFR_sbrenc_aac\ps_enc.c enc\floatFR_sbrenc_aac\qmf_enc.c enc\floatFR_sbrenc_aac\sbr_main.c enc\floatFR_sbrenc_aac\sbr_misc.c enc\floatFR_sbrenc_aac\sbr_ram.c enc\floatFR_sbrenc_aac\sbr_rom.c enc\floatFR_sbrenc_aac\ton_corr.c enc\floatFR_sbrenc_aac\tran_det.c enc\psycho_acoustic\band_nrg.c enc\psycho_acoustic\block_switch.c enc\psycho_acoustic\grp_data.c enc\psycho_acoustic\interface.c enc\psycho_acoustic\ms_stereo.c enc\psycho_acoustic\pre_echo_control.c enc\psycho_acoustic\psy_configuration.c enc\psycho_acoustic\psy_main.c enc\psycho_acoustic\spreading.c enc\psycho_acoustic\stprepro.c enc\psycho_acoustic\tns.c enc\psycho_acoustic\tns_param.c enc\psycho_acoustic\transform.c enc\quantization_and_coding\adj_thr.c enc\quantization_and_coding\dyn_bits.c enc\quantization_and_coding\line_pe.c enc\quantization_and_coding\qc_main.c enc\quantization_and_coding\quantize.c enc\quantization_and_coding\sf_estim.c enc\quantization_and_coding\stat_bits.c
+         stat_bits.c
+         sf_estim.c
+         quantize.c
+         qc_main.c
+         line_pe.c
+         dyn_bits.c
+         adj_thr.c
+         transform.c
+         tns_param.c
+         tns.c
+     1>f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(854): warning C4005: 'max' : macro redefinition
+                 d:\7f game\projects\mediaservice\voiceengine\third_party\reference\aac_demo\libaac++\enc\minmax.h(9) : see previous definition of 'max'
+     1>f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(855): warning C4005: 'min' : macro redefinition
+                 d:\7f game\projects\mediaservice\voiceengine\third_party\reference\aac_demo\libaac++\enc\minmax.h(6) : see previous definition of 'min'
+         stprepro.c
+         spreading.c
+         psy_main.c
+         psy_configuration.c
+         pre_echo_control.c
+         ms_stereo.c
+         interface.c
+         grp_data.c
+         block_switch.c
+         band_nrg.c
+         Generating Code...
+         Compiling...
+         tran_det.c
+         ton_corr.c
+         sbr_rom.c
+         sbr_ram.c
+         sbr_misc.c
+         sbr_main.c
+         qmf_enc.c
+         ps_enc.c
+         ps_bitenc.c
+         nf_est.c
+         mh_det.c
+         invf_est.c
+         hybrid.c
+         freq_sca.c
+         fram_gen.c
+         env_est.c
+         env_bit.c
+         code_env.c
+         bit_sbr.c
+         resampler.c
+         Generating Code...
+         Compiling...
+         iir32resample.c
+         bitbuffer.c
+         transcendent.c
+         cfftn.c
+         channel_map.c
+         bit_cnt.c
+         bitenc.c
+         aac_rom.c
+         aac_ram.c
+         aacenc.c
+         Generating Code...
+       Lib:
+         f:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\libaac++.lib" /NOLOGO "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\aacenc.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\aac_ram.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\aac_rom.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\bitenc.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\bit_cnt.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\channel_map.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\cfftn.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\transcendent.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\bitbuffer.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\iir32resample.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\resampler.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\bit_sbr.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\code_env.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\env_bit.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\env_est.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\fram_gen.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\freq_sca.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\hybrid.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\invf_est.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\mh_det.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\nf_est.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\ps_bitenc.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\ps_enc.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\qmf_enc.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\sbr_main.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\sbr_misc.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\sbr_ram.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\sbr_rom.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\ton_corr.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\tran_det.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\band_nrg.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\block_switch.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\grp_data.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\interface.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\ms_stereo.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\pre_echo_control.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\psy_configuration.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\psy_main.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\spreading.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\stprepro.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\tns.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\tns_param.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\transform.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\adj_thr.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\dyn_bits.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\line_pe.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\qc_main.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\quantize.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\sf_estim.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\stat_bits.obj"
+         libaac++.vcxproj -> D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\libaac++.lib
+       FinalizeBuildStatus:
+         Deleting file "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\libaac++.unsuccessfulbuild".
+         Touching "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\libaac++\libaac++.lastbuildstate".
+     1>Done Building Project "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\libaac++\libaac++.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.10

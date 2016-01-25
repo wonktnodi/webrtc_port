@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\if_rom.c" />
+    <ClCompile Include="src\dec_acelp.c" />
+    <ClCompile Include="src\dec_dtx.c" />
+    <ClCompile Include="src\dec_gain.c" />
+    <ClCompile Include="src\dec_if.c" />
+    <ClCompile Include="src\dec_lpc.c" />
+    <ClCompile Include="src\dec_main.c" />
+    <ClCompile Include="src\dec_rom.c" />
+    <ClCompile Include="src\dec_util.c" />
+    <ClCompile Include="src\enc_acelp.c" />
+    <ClCompile Include="src\enc_dtx.c" />
+    <ClCompile Include="src\enc_gain.c" />
+    <ClCompile Include="src\enc_if.c" />
+    <ClCompile Include="src\enc_lpc.c" />
+    <ClCompile Include="src\enc_main.c" />
+    <ClCompile Include="src\enc_rom.c" />
+    <ClCompile Include="src\enc_util.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\if_rom.h" />
+    <ClInclude Include="src\typedef.h" />
+    <ClInclude Include="src\dec.h" />
+    <ClInclude Include="src\dec_acelp.h" />
+    <ClInclude Include="src\dec_dtx.h" />
+    <ClInclude Include="src\dec_gain.h" />
+    <ClInclude Include="src\dec_if.h" />
+    <ClInclude Include="src\dec_lpc.h" />
+    <ClInclude Include="src\dec_main.h" />
+    <ClInclude Include="src\dec_util.h" />
+    <ClInclude Include="src\enc.h" />
+    <ClInclude Include="src\enc_acelp.h" />
+    <ClInclude Include="src\enc_dtx.h" />
+    <ClInclude Include="src\enc_gain.h" />
+    <ClInclude Include="src\enc_if.h" />
+    <ClInclude Include="src\enc_lpc.h" />
+    <ClInclude Include="src\enc_main.h" />
+    <ClInclude Include="src\enc_util.h" />
+  </ItemGroup>
+</Project>

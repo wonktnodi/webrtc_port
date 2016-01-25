@@ -1,0 +1,31 @@
+﻿Build started 7/17/2013 10:07:11 AM.
+     1>Project "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\aac_util\aac_util.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\aac_util\aac_util.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         f:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../libaac++/enc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\aac_util\\" /Fd"D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\aac_util\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt brswitchmain.c mp4file.c
+         mp4file.c
+     1>d:\7f game\projects\mediaservice\voiceengine\third_party\reference\aac_demo\aac_util\mp4file.c(384): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\7f game\projects\mediaservice\voiceengine\third_party\reference\aac_demo\aac_util\mp4file.c(398): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+         brswitchmain.c
+     1>d:\7f game\projects\mediaservice\voiceengine\third_party\reference\aac_demo\aac_util\brswitchmain.c(130): warning C4101: 'transitionFac' : unreferenced local variable
+     1>d:\7f game\projects\mediaservice\voiceengine\third_party\reference\aac_demo\aac_util\brswitchmain.c(232): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : see declaration of 'fscanf'
+     1>d:\7f game\projects\mediaservice\voiceengine\third_party\reference\aac_demo\aac_util\brswitchmain.c(349): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         Generating Code...
+       Lib:
+         f:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\aac_util.lib" /NOLOGO "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\aac_util\brswitchmain.obj"
+         "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\aac_util\mp4file.obj"
+         aac_util.vcxproj -> D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\aac_util.lib
+       FinalizeBuildStatus:
+         Deleting file "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\aac_util\aac_util.unsuccessfulbuild".
+         Touching "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\Debug\obj\aac_util\aac_util.lastbuildstate".
+     1>Done Building Project "D:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\aac_demo\aac_util\aac_util.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.45

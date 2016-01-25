@@ -1,0 +1,75 @@
+﻿Build started 7/15/2013 10:03:06 AM.
+     1>Project "d:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\3GPP_enhanced_aacPlus_src_200907\FloatFR_aacPlusenc\FloatFR_fastaacenc\FloatFR_aacenc.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Win32_D/CT/obj\FloatFR_aacenc.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         f:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./ /I../FloatFRlib /I../FloatFR_bitbuflib /I../FloatFR_sbrenclib/src /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Win32_D/CT/obj\\" /Fd".\Win32_D/CT/obj\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt src\band_nrg.c src\block_switch.c src\grp_data.c src\interface.c src\ms_stereo.c src\pre_echo_control.c src\psy_configuration.c src\psy_main.c src\spreading.c src\stprepro.c src\tns.c src\tns_param.c src\transform.c src\adj_thr.c src\dyn_bits.c src\line_pe.c src\qc_main.c src\quantize.c src\sf_estim.c src\stat_bits.c src\bit_cnt.c src\bitenc.c src\aac_ram.c src\aac_rom.c src\aacenc.c src\channel_map.c
+         channel_map.c
+         aacenc.c
+         aac_rom.c
+         aac_ram.c
+         bitenc.c
+         bit_cnt.c
+         stat_bits.c
+         sf_estim.c
+         quantize.c
+         qc_main.c
+         line_pe.c
+         dyn_bits.c
+         adj_thr.c
+         transform.c
+         tns_param.c
+         tns.c
+     1>f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(854): warning C4005: 'max' : macro redefinition
+                 d:\7f game\projects\mediaservice\voiceengine\third_party\reference\3gpp_enhanced_aacplus_src_200907\floatfr_aacplusenc\floatfr_fastaacenc\src\minmax.h(9) : see previous definition of 'max'
+     1>f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdlib.h(855): warning C4005: 'min' : macro redefinition
+                 d:\7f game\projects\mediaservice\voiceengine\third_party\reference\3gpp_enhanced_aacplus_src_200907\floatfr_aacplusenc\floatfr_fastaacenc\src\minmax.h(6) : see previous definition of 'min'
+         stprepro.c
+         spreading.c
+         psy_main.c
+         psy_configuration.c
+         Generating Code...
+         Compiling...
+         pre_echo_control.c
+         ms_stereo.c
+         interface.c
+         grp_data.c
+         block_switch.c
+         band_nrg.c
+         Generating Code...
+       Lib:
+         f:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\Win32_D/CT\FloatFR_aacenc.lib" /NOLOGO .\Win32_D/CT/obj\band_nrg.obj
+         .\Win32_D/CT/obj\block_switch.obj
+         .\Win32_D/CT/obj\grp_data.obj
+         .\Win32_D/CT/obj\interface.obj
+         .\Win32_D/CT/obj\ms_stereo.obj
+         .\Win32_D/CT/obj\pre_echo_control.obj
+         .\Win32_D/CT/obj\psy_configuration.obj
+         .\Win32_D/CT/obj\psy_main.obj
+         .\Win32_D/CT/obj\spreading.obj
+         .\Win32_D/CT/obj\stprepro.obj
+         .\Win32_D/CT/obj\tns.obj
+         .\Win32_D/CT/obj\tns_param.obj
+         .\Win32_D/CT/obj\transform.obj
+         .\Win32_D/CT/obj\adj_thr.obj
+         .\Win32_D/CT/obj\dyn_bits.obj
+         .\Win32_D/CT/obj\line_pe.obj
+         .\Win32_D/CT/obj\qc_main.obj
+         .\Win32_D/CT/obj\quantize.obj
+         .\Win32_D/CT/obj\sf_estim.obj
+         .\Win32_D/CT/obj\stat_bits.obj
+         .\Win32_D/CT/obj\bit_cnt.obj
+         .\Win32_D/CT/obj\bitenc.obj
+         .\Win32_D/CT/obj\aac_ram.obj
+         .\Win32_D/CT/obj\aac_rom.obj
+         .\Win32_D/CT/obj\aacenc.obj
+         .\Win32_D/CT/obj\channel_map.obj
+         FloatFR_aacenc.vcxproj -> d:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\3GPP_enhanced_aacPlus_src_200907\FloatFR_aacPlusenc\FloatFR_fastaacenc\.\Win32_D/CT\FloatFR_aacenc.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Win32_D/CT/obj\FloatFR_aacenc.unsuccessfulbuild".
+         Touching ".\Win32_D/CT/obj\FloatFR_aacenc.lastbuildstate".
+     1>Done Building Project "d:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\3GPP_enhanced_aacPlus_src_200907\FloatFR_aacPlusenc\FloatFR_fastaacenc\FloatFR_aacenc.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.27

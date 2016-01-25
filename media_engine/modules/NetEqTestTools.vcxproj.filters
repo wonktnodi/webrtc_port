@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="audio_coding">
+      <UniqueIdentifier>{5d203690-36c1-47c4-b4bd-4181bb228468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_coding\neteq">
+      <UniqueIdentifier>{950401b1-2f44-4faa-9690-49405f0febdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_coding\neteq\test">
+      <UniqueIdentifier>{6d0a8821-9320-434a-b2a9-03be59436c84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="audio_coding\neteq\test\NETEQTEST_CodecClass.cc">
+      <Filter>audio_coding\neteq\test</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\neteq\test\NETEQTEST_DummyRTPpacket.cc">
+      <Filter>audio_coding\neteq\test</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\neteq\test\NETEQTEST_NetEQClass.cc">
+      <Filter>audio_coding\neteq\test</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\neteq\test\NETEQTEST_RTPpacket.cc">
+      <Filter>audio_coding\neteq\test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="audio_coding\neteq\test\NETEQTEST_CodecClass.h">
+      <Filter>audio_coding\neteq\test</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\neteq\test\NETEQTEST_DummyRTPpacket.h">
+      <Filter>audio_coding\neteq\test</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\neteq\test\NETEQTEST_NetEQClass.h">
+      <Filter>audio_coding\neteq\test</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\neteq\test\NETEQTEST_RTPpacket.h">
+      <Filter>audio_coding\neteq\test</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

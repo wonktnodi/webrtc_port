@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="audio_coding\codecs\cng\cng_helpfuns.c">
+      <Filter>audio_coding\codecs\cng</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\cng\webrtc_cng.c">
+      <Filter>audio_coding\codecs\cng</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="audio_coding\codecs\cng\include\webrtc_cng.h">
+      <Filter>audio_coding\codecs\cng\include</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\codecs\cng\cng_helpfuns.h">
+      <Filter>audio_coding\codecs\cng</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="audio_coding">
+      <UniqueIdentifier>{ed6bd55b-6ca1-4aa8-9dbf-334be4e780dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_coding\codecs">
+      <UniqueIdentifier>{d29e7ab5-0e98-4560-b11a-b9c8ee9be59e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_coding\codecs\cng">
+      <UniqueIdentifier>{f17cb479-dfab-411f-ac3f-3194406ab596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_coding\codecs\cng\include">
+      <UniqueIdentifier>{b128bdd2-886f-4f4d-81dc-c26b2337456c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

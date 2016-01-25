@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="audio_device\audio_device_utility.cc" />
+    <ClCompile Include="audio_device\audio_device_buffer.cc" />
+    <ClCompile Include="audio_device\audio_device_generic.cc" />
+    <ClCompile Include="audio_device\audio_device_impl.cc" />
+    <ClCompile Include="audio_device\win\audio_device_utility_win.cc">
+      <Filter>audio_device\win</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_device\win\audio_device_wave_win.cc">
+      <Filter>audio_device\win</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_device\win\audio_device_core_win.cc">
+      <Filter>audio_device\win</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_device\linux\alsasymboltable_linux.cc">
+      <Filter>audio_device\linux\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_device\linux\audio_device_alsa_linux.cc">
+      <Filter>audio_device\linux\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_device\linux\audio_device_utility_linux.cc">
+      <Filter>audio_device\linux\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_device\linux\audio_mixer_manager_alsa_linux.cc">
+      <Filter>audio_device\linux\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_device\linux\latebindingsymboltable_linux.cc">
+      <Filter>audio_device\linux\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_device\ios\audio_device_ios.cc">
+      <Filter>audio_device\ios\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_device\ios\audio_device_utility_ios.cc">
+      <Filter>audio_device\ios\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_device\mac\audio_mixer_manager_mac.cc">
+      <Filter>audio_device\mac\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_device\mac\audio_device_utility_mac.cc">
+      <Filter>audio_device\mac\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_device\mac\audio_device_mac.cc">
+      <Filter>audio_device\mac\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_device\mac\portaudio\pa_ringbuffer.c">
+      <Filter>audio_device\mac\portaudio\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_device\android\audio_device_utility_android.cc">
+      <Filter>audio_device\android\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_device\win\audio_mixer_manager_win.cc">
+      <Filter>audio_device\win</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="audio_device\audio_device_buffer.h" />
+    <ClInclude Include="audio_device\audio_device_config.h" />
+    <ClInclude Include="audio_device\audio_device_impl.h" />
+    <ClInclude Include="audio_device\audio_device_generic.h" />
+    <ClInclude Include="audio_device\audio_device_utility.h" />
+    <ClInclude Include="audio_device\include\audio_device.h">
+      <Filter>audio_device\include</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_device\include\audio_device_defines.h">
+      <Filter>audio_device\include</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_device\win\audio_device_utility_win.h">
+      <Filter>audio_device\win</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_device\win\audio_device_wave_win.h">
+      <Filter>audio_device\win</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_device\win\audio_device_core_win.h">
+      <Filter>audio_device\win</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_device\dummy\audio_device_dummy.h">
+      <Filter>audio_device\dummy</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_device\dummy\audio_device_utility_dummy.h">
+      <Filter>audio_device\dummy</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_device\linux\audio_device_alsa_linux.h">
+      <Filter>audio_device\linux\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_device\linux\alsasymboltable_linux.h">
+      <Filter>audio_device\linux\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_device\linux\audio_device_utility_linux.h">
+      <Filter>audio_device\linux\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_device\linux\audio_mixer_manager_alsa_linux.h">
+      <Filter>audio_device\linux\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_device\linux\latebindingsymboltable_linux.h">
+      <Filter>audio_device\linux\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_device\ios\audio_device_ios.h">
+      <Filter>audio_device\ios\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_device\ios\audio_device_utility_ios.h">
+      <Filter>audio_device\ios\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_device\mac\audio_mixer_manager_mac.h">
+      <Filter>audio_device\mac\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_device\mac\audio_device_utility_mac.h">
+      <Filter>audio_device\mac\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_device\mac\audio_device_mac.h">
+      <Filter>audio_device\mac\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_device\mac\portaudio\pa_memorybarrier.h">
+      <Filter>audio_device\mac\portaudio\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_device\mac\portaudio\pa_ringbuffer.h">
+      <Filter>audio_device\mac\portaudio\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_device\android\audio_device_utility_android.h">
+      <Filter>audio_device\android\_excluded_files</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_device\win\audio_mixer_manager_win.h">
+      <Filter>audio_device\win</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="audio_device">
+      <UniqueIdentifier>{e3c729ef-2238-49f7-ae4f-f50f8904b1e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_device\dummy">
+      <UniqueIdentifier>{f2cc0ce3-367e-4561-af46-814366b0c3f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_device\include">
+      <UniqueIdentifier>{d1f8f00c-b340-480a-810c-1008f1275f41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_device\win">
+      <UniqueIdentifier>{3bd77161-ecb3-42b6-a8d0-c08c00178979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_device\mac">
+      <UniqueIdentifier>{25a7fc41-644a-47c7-8c61-56eb9aaafc1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_device\linux">
+      <UniqueIdentifier>{539ccd93-a19d-4959-be72-58f73125b5cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_device\ios">
+      <UniqueIdentifier>{5b3d7e0e-cc04-44fc-8658-86e6df18433d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_device\linux\_excluded_files">
+      <UniqueIdentifier>{d277a9d6-d7a9-4365-bbfd-16cfda63ce09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_device\ios\_excluded_files">
+      <UniqueIdentifier>{e13e9818-996c-4e3c-abc6-0179598041bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_device\mac\_excluded_files">
+      <UniqueIdentifier>{b2484e0b-23e8-4f43-9ad9-0660e747d05c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_device\mac\portaudio">
+      <UniqueIdentifier>{261ea3e2-187b-4732-885b-f0e3f6b6cf4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_device\mac\portaudio\_excluded_files">
+      <UniqueIdentifier>{3978d24e-99db-4a14-9191-053efef1f10f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_device\android">
+      <UniqueIdentifier>{b2646a82-b262-4bdd-8eeb-e7bdb6702677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_device\android\_excluded_files">
+      <UniqueIdentifier>{1c24afe0-46e4-4f9e-a2ec-c9b1d854c8ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

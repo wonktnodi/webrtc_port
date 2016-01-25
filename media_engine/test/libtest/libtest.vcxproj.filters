@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{57CA55B8-BCC5-4000-CE3A-58972F82E9CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helpers">
+      <UniqueIdentifier>{7EE98CE8-2345-EC4F-120C-CFF181657498}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libtest.gyp"/>
+    <ClInclude Include="include\bit_flip_encryption.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\random_encryption.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClCompile Include="helpers\random_encryption.cc">
+      <Filter>helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="helpers\bit_flip_encryption.cc">
+      <Filter>helpers</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

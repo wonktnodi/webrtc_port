@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="audio_processing\aec\aec_core_sse2.c">
+      <Filter>audio_processing\aec</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_processing\aec\aec_rdft_sse2.c">
+      <Filter>audio_processing\aec</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="audio_processing">
+      <UniqueIdentifier>{6cd232ea-f6bb-4781-a33f-ee53084c140a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_processing\aec">
+      <UniqueIdentifier>{84144177-0fd7-4588-a6f5-d700c52917c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

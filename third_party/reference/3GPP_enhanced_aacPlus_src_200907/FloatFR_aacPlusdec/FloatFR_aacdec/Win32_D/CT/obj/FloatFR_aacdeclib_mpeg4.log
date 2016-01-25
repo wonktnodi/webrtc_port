@@ -1,0 +1,56 @@
+﻿Build started 7/15/2013 10:06:16 AM.
+     1>Project "d:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\3GPP_enhanced_aacPlus_src_200907\FloatFR_aacPlusdec\FloatFR_aacdec\FloatFR_aacdeclib_mpeg4.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Win32_D/CT/obj\FloatFR_aacdeclib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         f:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"..\FloatFRlib .\\" /I./ /I../FloatFRlib /I../FloatFR_bitbuflib /I../FloatFR_sbrdeclib /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _LIB /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Win32_D/CT/obj\\" /Fd".\Win32_D/CT/obj\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt src\aac_ram.c src\aac_rom.c src\aacdecoder.c src\bitstream.c src\block.c src\channel.c src\channelinfo.c src\conceal.c src\dse.c src\imdct.c src\longblock.c src\pns.c src\pulsedata.c src\shortblock.c src\stereo.c src\streaminfo.c src\tns.c
+         tns.c
+         streaminfo.c
+         stereo.c
+         shortblock.c
+         pulsedata.c
+         pns.c
+         longblock.c
+         imdct.c
+         dse.c
+     1>d:\7f game\projects\mediaservice\voiceengine\third_party\reference\3gpp_enhanced_aacplus_src_200907\floatfr_aacplusdec\floatfr_aacdec\src\dse.c(17): warning C4244: '=' : conversion from 'unsigned long' to 'char', possible loss of data
+     1>d:\7f game\projects\mediaservice\voiceengine\third_party\reference\3gpp_enhanced_aacplus_src_200907\floatfr_aacplusdec\floatfr_aacdec\src\dse.c(20): warning C4244: '=' : conversion from 'unsigned long' to 'short', possible loss of data
+     1>d:\7f game\projects\mediaservice\voiceengine\third_party\reference\3gpp_enhanced_aacplus_src_200907\floatfr_aacplusdec\floatfr_aacdec\src\dse.c(25): warning C4244: '+=' : conversion from 'unsigned long' to 'short', possible loss of data
+         conceal.c
+         channelinfo.c
+         channel.c
+         block.c
+         bitstream.c
+         aacdecoder.c
+         aac_rom.c
+         aac_ram.c
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(d:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\3GPP_enhanced_aacPlus_src_200907\FloatFR_aacPlusdec\FloatFR_aacdec\.\Win32_D/CT\FloatFR_aacdeclib.lib) does not match the Library's OutputFile property value (d:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\3GPP_enhanced_aacPlus_src_200907\FloatFR_aacPlusdec\FloatFR_aacdec\Win32_D\CT\FloatFR_aacdeclib_mpeg4.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(FloatFR_aacdeclib) does not match the Library's OutputFile property value (FloatFR_aacdeclib_mpeg4). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         f:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\Win32_D/CT\FloatFR_aacdeclib_mpeg4.lib" /NOLOGO .\Win32_D/CT/obj\aac_ram.obj
+         .\Win32_D/CT/obj\aac_rom.obj
+         .\Win32_D/CT/obj\aacdecoder.obj
+         .\Win32_D/CT/obj\bitstream.obj
+         .\Win32_D/CT/obj\block.obj
+         .\Win32_D/CT/obj\channel.obj
+         .\Win32_D/CT/obj\channelinfo.obj
+         .\Win32_D/CT/obj\conceal.obj
+         .\Win32_D/CT/obj\dse.obj
+         .\Win32_D/CT/obj\imdct.obj
+         .\Win32_D/CT/obj\longblock.obj
+         .\Win32_D/CT/obj\pns.obj
+         .\Win32_D/CT/obj\pulsedata.obj
+         .\Win32_D/CT/obj\shortblock.obj
+         .\Win32_D/CT/obj\stereo.obj
+         .\Win32_D/CT/obj\streaminfo.obj
+         .\Win32_D/CT/obj\tns.obj
+         FloatFR_aacdeclib_mpeg4.vcxproj -> d:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\3GPP_enhanced_aacPlus_src_200907\FloatFR_aacPlusdec\FloatFR_aacdec\.\Win32_D/CT\FloatFR_aacdeclib.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Win32_D/CT/obj\FloatFR_aacdeclib.unsuccessfulbuild".
+         Touching ".\Win32_D/CT/obj\FloatFR_aacdeclib.lastbuildstate".
+     1>Done Building Project "d:\7f Game\Projects\MediaService\VoiceEngine\third_party\reference\3GPP_enhanced_aacPlus_src_200907\FloatFR_aacPlusdec\FloatFR_aacdec\FloatFR_aacdeclib_mpeg4.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.39

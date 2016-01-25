@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\arith_routines.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\transform.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\arith_routines_hist.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\arith_routines_logist.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\bandwidth_estimator.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\decode.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\decode_bwe.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\decode_plc.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\encode.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\entropy_coding.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\fft.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\filterbank_tables.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\filterbanks.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\filters.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\initialize.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\isacfix.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\lattice.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\lattice_c.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\lpc_masking_model.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\lpc_tables.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\pitch_estimator.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\pitch_filter.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\pitch_filter_c.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\pitch_gain_tables.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\pitch_lag_tables.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_coding\codecs\isac\fix\source\spectrum_ar_model_tables.c">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="audio_coding\codecs\isac\fix\interface\isacfix.h">
+      <Filter>audio_coding\codecs\isac\fix\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\codecs\isac\fix\source\arith_routins.h">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\codecs\isac\fix\source\bandwidth_estimator.h">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\codecs\isac\fix\source\codec.h">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\codecs\isac\fix\source\entropy_coding.h">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\codecs\isac\fix\source\fft.h">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\codecs\isac\fix\source\filterbank_tables.h">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\codecs\isac\fix\source\lpc_masking_model.h">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\codecs\isac\fix\source\lpc_tables.h">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\codecs\isac\fix\source\pitch_estimator.h">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\codecs\isac\fix\source\pitch_gain_tables.h">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\codecs\isac\fix\source\pitch_lag_tables.h">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\codecs\isac\fix\source\settings.h">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\codecs\isac\fix\source\spectrum_ar_model_tables.h">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_coding\codecs\isac\fix\source\structs.h">
+      <Filter>audio_coding\codecs\isac\fix\source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="audio_coding">
+      <UniqueIdentifier>{eed10bf5-8b24-4847-9001-2dee8edc8a17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_coding\codecs">
+      <UniqueIdentifier>{5b45b6e4-06ed-4849-8fd6-ca8144b00cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_coding\codecs\isac">
+      <UniqueIdentifier>{340a45ea-7639-4c40-906d-54e56217e356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_coding\codecs\isac\fix">
+      <UniqueIdentifier>{e5e93bf6-71ff-44d6-be92-60294994673c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_coding\codecs\isac\fix\interface">
+      <UniqueIdentifier>{9c934b47-fae2-4d8c-b6b9-b366ef43d2f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="audio_coding\codecs\isac\fix\source">
+      <UniqueIdentifier>{bd0b30c3-4408-4e81-a6d5-cb3f47063755}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

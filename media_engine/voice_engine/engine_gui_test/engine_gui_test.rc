@@ -1,0 +1,339 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "atlres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""atlres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\engine_gui_test.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG 0, 0, 187, 102
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,130,81,50,14
+    CTEXT           "engine_gui_test Application v1.0\n\n(c) Copyright 2012",IDC_STATIC,25,57,78,32
+    ICON            IDR_MAINFRAME,IDC_STATIC,55,26,18,20
+    GROUPBOX        "",IDC_STATIC,7,7,115,88
+END
+
+IDD_MAINDLG DIALOGEX 0, 0, 471, 393
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+CAPTION "engine_gui_test"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_RCH_LOG,"RichEdit20W",ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,2,288,468,102,WS_EX_STATICEDGE
+    COMBOBOX        IDC_CMB_DEV_INPUT,8,21,194,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_CMB_DEV_OUTPUT,8,86,193,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Loopback",IDC_BTN_LOOPBACK,300,25,50,14
+    GROUPBOX        "",IDC_STATIC,2,0,295,119,BS_RIGHT,WS_EX_TRANSPARENT
+    LTEXT           "Recording device:",IDC_STATIC,8,8,58,8
+    LTEXT           "Playing device:",IDC_STATIC,8,73,49,8
+    CONTROL         "",IDC_SLD_INPUT_VOLUME,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | TBS_TOOLTIPS | WS_TABSTOP,204,21,63,13
+    LTEXT           "Microphone volume",IDC_STATIC,208,8,62,8
+    CONTROL         "",IDC_PROGRESS_AUDIO_LEVEL_IN,"msctls_progress32",0x0,254,40,36,6
+    LTEXT           "Audio level",IDC_STATIC,208,38,36,8
+    CONTROL         "",IDC_SLD_OUTPUT_VOLUME,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | TBS_TOOLTIPS | WS_TABSTOP,204,88,63,13
+    LTEXT           "Speaker volume",IDC_STATIC,206,74,52,8
+    CONTROL         "",IDC_PROGRESS_AUDIO_LEVEL_OUT,"msctls_progress32",0x0,254,104,36,6
+    LTEXT           "Audio level",IDC_STATIC,208,104,36,8
+    CONTROL         "Mute",IDC_CHK_MIC_MUTE,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,35,32,14,WS_EX_DLGMODALFRAME
+    CONTROL         "PlayFileAsMic",IDC_CHK_PLAY_FILE_IN,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,8,53,58,14,WS_EX_DLGMODALFRAME
+    CONTROL         "RecMicToFile",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,74,53,58,14,WS_EX_DLGMODALFRAME
+    CONTROL         "Ext. Media",IDC_CHK_EXTERNAL_MEDIA,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,140,53,58,14,WS_EX_DLGMODALFRAME
+    CONTROL         "Ext. Media",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,140,101,58,14,WS_EX_DLGMODALFRAME
+    LTEXT           "Buffer size:",IDC_STATIC,8,104,38,8
+    EDITTEXT        IDC_EDIT_PLAYOUT_BUFFER_SIZE,50,102,50,12,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    LTEXT           "Panning",IDC_STATIC,266,74,26,8
+    EDITTEXT        IDC_EDT_AUDIO_LAYER,300,8,169,14,ES_AUTOHSCROLL | ES_READONLY
+    COMBOBOX        IDC_CMB_CODEC,34,127,99,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Codec",IDC_STATIC,8,128,21,8
+    CONTROL         "",IDC_LST_CHANNELS,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,300,168,170,118
+    GROUPBOX        "",IDC_TXT_CHL_SETTING,2,116,295,170,BS_RIGHT,WS_EX_TRANSPARENT
+    CONTROL         "Hold",IDC_CHECK_CHL_ON_HOLD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,138,126,36,14,WS_EX_DLGMODALFRAME
+    CONTROL         "Delay",IDC_CHECK_CHL_DELAY_ESTIMATE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,227,40,14,WS_EX_DLGMODALFRAME
+    EDITTEXT        IDC_EDT_CHL_DELAY_ESTIMATE,50,227,79,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY | NOT WS_TABSTOP
+    CONTROL         "RxVAD",IDC_CHECK_CHL_RXVAD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,208,40,14,WS_EX_DLGMODALFRAME
+    EDITTEXT        IDC_EDT_CHL_RXVAD,50,208,79,14,ES_CENTER | ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "Rx AGC",IDC_CHECK_RX_AGC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,138,145,42,14,WS_EX_DLGMODALFRAME
+    CONTROL         "Rx NS",IDC_CHECK_RX_NS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,138,165,42,14,WS_EX_DLGMODALFRAME
+    CONTROL         "VAD",IDC_CHK_VAD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,138,184,42,14,WS_EX_DLGMODALFRAME
+    CONTROL         "Mute",IDC_CHECK_CHL_MUTE_IN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,189,126,36,14,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Start",IDC_BTN_CHL_START_SEND,138,211,32,14
+    PUSHBUTTON      "Stop",IDC_BTN_CHL_STOP_SEND,138,227,32,14
+    LTEXT           "Send",IDC_STATIC_SEND,144,200,17,8
+    PUSHBUTTON      "Start",IDC_BTN_CHL_START_PLAYOUT,172,211,32,14
+    PUSHBUTTON      "Stop",IDC_BTN_CHL_STOP_PLAYOUT,172,227,32,14
+    LTEXT           "Playout",IDC_STATIC_PLAY,176,200,25,8
+    PUSHBUTTON      "Start",IDC_BTN_CHL_START_RECEIVE,206,211,32,14
+    PUSHBUTTON      "Stop",IDC_BTN_CHL_STOP_RECEIVE,206,227,32,14
+    LTEXT           "Receive",IDC_STATIC_LISTEN,208,200,26,8
+    CONTROL         "",IDC_SLD_RX_AGC,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | TBS_TOOLTIPS | WS_TABSTOP,185,147,91,13
+    CONTROL         "",IDC_SLD_RX_NS,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | TBS_TOOLTIPS | WS_TABSTOP,185,166,91,13
+    CONTROL         "",IDC_SLD_VAD,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | TBS_TOOLTIPS | WS_TABSTOP,185,186,65,13
+    PUSHBUTTON      "Record to File",IDC_BTN_INPUT_TO_FILE,359,25,56,14
+    CONTROL         "In",IDC_CHK_CHL_PLAY_FILE_IN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,253,40,14,WS_EX_DLGMODALFRAME
+    CONTROL         "Out",IDC_CHK_CHL_PLAY_FILE_OUT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,268,40,14,WS_EX_DLGMODALFRAME
+    LTEXT           "Play file",IDC_STATIC,8,243,26,8
+    PUSHBUTTON      "Start Test",IDC_BTN_START_TEST,300,43,50,14
+    PUSHBUTTON      "Stop Test",IDC_BTN_STOP_TEST,359,43,55,14,WS_DISABLED
+    CONTROL         "",IDC_IP_DEST,"SysIPAddress32",WS_TABSTOP,355,62,100,15
+    LTEXT           "Destination:",IDC_STATIC,301,63,40,8
+    EDITTEXT        IDC_EDT_DEST_PORT,355,79,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Local port:",IDC_STATIC,301,99,35,8
+    EDITTEXT        IDC_EDT_LOCAL_PORT,355,97,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Send",IDC_CHK_SEND,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,300,119,32,10
+    CONTROL         "Receive",IDC_CHK_RECEIVE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,355,119,41,10
+    CONTROL         "Mix with microphone",IDC_CHK_MIX_FILE_WITH_MIC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,43,38,79,10
+    EDITTEXT        IDC_EDT_DISCARD_CNT,206,53,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "Create Chl",IDC_BTN_CREATE_CHL,300,134,50,14
+    PUSHBUTTON      "Delete Chl",IDC_BTN_DEL_CHL,359,134,50,14
+    EDITTEXT        IDC_EDT_MIC_FILE,50,253,196,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_PLAYOUT_FILE,50,268,196,14,ES_AUTOHSCROLL
+    CONTROL         "NS",IDC_CHK_NS,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,165,29,14,WS_EX_DLGMODALFRAME
+    CONTROL         "EC",IDC_CHK_EC,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,184,29,14,WS_EX_DLGMODALFRAME
+    CONTROL         "AGC",IDC_CHK_AGC,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,145,29,14,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_SLD_MIC_NS,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | TBS_TOOLTIPS | WS_TABSTOP,41,165,84,13
+    CONTROL         "",IDC_SLD_MIC_EC,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | TBS_TOOLTIPS | WS_TABSTOP,41,185,84,13
+    CONTROL         "",IDC_SLD_MIC_AGC,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | TBS_TOOLTIPS | WS_TABSTOP,41,146,84,13
+    CONTROL         "DTX",IDC_CHK_DTX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,247,186,29,10,WS_EX_RIGHT
+    EDITTEXT        IDC_EDT_SEND_STATUS,232,126,58,14,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "Mute Mic",IDC_CHK_PLAY_FILE_IN_MUTE_MIC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,255,255,39,10,WS_EX_RIGHT
+    CONTROL         "Dump In",IDC_CHK_RTP_DUMP_IN,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,240,211,49,14,WS_EX_DLGMODALFRAME
+    CONTROL         "Dump Out",IDC_CHK_RTP_DUMP_OUT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,240,227,49,14,WS_EX_DLGMODALFRAME
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 95
+    END
+
+    IDD_MAINDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 464
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 386
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,0,614,1323
+ PRODUCTVERSION 1,0,0,2
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "engine_gui_test Module"
+            VALUE "FileVersion", "0.0.614.1323"
+            VALUE "InternalName", "engine_gui_test"
+            VALUE "LegalCopyright", "Copyright 2012"
+            VALUE "OriginalFilename", "engine_gui_test.exe"
+            VALUE "ProductName", "engine_gui_test Module"
+            VALUE "ProductVersion", "1.0.0.2"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "engine_gui_test"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    ATL_IDS_SCSIZE          "Change the window size"
+    ATL_IDS_SCMOVE          "Change the window position"
+    ATL_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    ATL_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    ATL_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    ATL_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    ATL_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    ATL_IDS_SCRESTORE       "Restore the window to normal size"
+    ATL_IDS_SCTASKLIST      "Activate Task List"
+    ATL_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE
+BEGIN
+    ATL_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    ATL_IDS_MRU_FILE        "Open this document"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+

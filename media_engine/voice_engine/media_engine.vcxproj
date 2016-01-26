@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9541F92A-4E00-4935-9E27-781CCD888801}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>media_engine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\build\$(Configuration)\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\build\$(Configuration)\</OutDir>
+    <IntDir>$(OutDir)obj\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>MEDIA_ENGINE_EXPORTS;_DEBUG;WEBRTC_SVNREVISION="Unavailable(issue687)";_WIN32_WINNT=0x0602;WINVER=0x0602;WIN32;_WINDOWS;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;USE_SKIA=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;ENABLE_TASK_MANAGER=1;ENABLE_WEB_INTENTS=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PROTECTOR_SERVICE=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_PRINTING=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;WEBRTC_LOGGING;WEBRTC_WIN;__STDC_FORMAT_MACROS;DYNAMIC_ANNOTATIONS_ENABLED=1;WTF_USE_DYNAMIC_ANNOTATIONS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>..;..\..;..\..\third_party\wtl\include;include;..\..\webrtc\modules\audio_device;..\common_audio\resampler\include;..\common_audio\signal_processing\include;..\modules\audio_coding\main\interface;..\modules\interface;..\modules\audio_conference_mixer\interface;..\modules\audio_device\include;..\modules\audio_processing\include;..\modules\media_file\interface;..\modules\rtp_rtcp\interface;..\modules\rtp_rtcp\source;..\modules\udp_transport\interface;..\modules\utility\interface;..\system_wrappers\interface;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;$(DXSDK_DIR)\Include;$(VSInstallDir)\VC\atlmfc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <DisableSpecificWarnings>4351;4396;4503;4819;4100;4121;4125;4127;4130;4131;4201;4238;4244;4245;4310;4355;4428;4481;4505;4510;4512;4530;4610;4611;4701;4702;4706;4389;4373;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>media_engine.def</ModuleDefinitionFile>
+      <ImportLibrary>$(OutDir)\lib\$(ProjectName).lib</ImportLibrary>
+      <AdditionalDependencies>Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;MEDIA_ENGINE_EXPORTS;WEBRTC_SVNREVISION="Unavailable(issue687)";_WIN32_WINNT=0x0602;WINVER=0x0602;NOMINMAX;PSAPI_VERSION=1;_CRT_RAND_S;CERT_CHAIN_PARA_HAS_EXTRA_FIELDS;WIN32_LEAN_AND_MEAN;_ATL_NO_OPENGL;_HAS_EXCEPTIONS=0;_SECURE_ATL;CHROMIUM_BUILD;TOOLKIT_VIEWS=1;USE_LIBJPEG_TURBO=1;ENABLE_ONE_CLICK_SIGNIN;ENABLE_REMOTING=1;ENABLE_WEBRTC=1;ENABLE_CONFIGURATION_POLICY;ENABLE_INPUT_SPEECH;ENABLE_NOTIFICATIONS;ENABLE_GPU=1;ENABLE_EGLIMAGE=1;USE_SKIA=1;__STD_C;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;ENABLE_TASK_MANAGER=1;ENABLE_WEB_INTENTS=1;ENABLE_EXTENSIONS=1;ENABLE_PLUGIN_INSTALLATION=1;ENABLE_PROTECTOR_SERVICE=1;ENABLE_SESSION_SERVICE=1;ENABLE_THEMES=1;ENABLE_BACKGROUND=1;ENABLE_AUTOMATION=1;ENABLE_PRINTING=1;ENABLE_CAPTIVE_PORTAL_DETECTION=1;WEBRTC_LOGGING;WEBRTC_WIN;__STDC_FORMAT_MACROS;DYNAMIC_ANNOTATIONS_ENABLED=1;WTF_USE_DYNAMIC_ANNOTATIONS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>..;..\..;..\..\third_party\wtl\include;include;..\..\webrtc\modules\audio_device;..\common_audio\resampler\include;..\common_audio\signal_processing\include;..\modules\audio_coding\main\interface;..\modules\interface;..\modules\audio_conference_mixer\interface;..\modules\audio_device\include;..\modules\audio_processing\include;..\modules\media_file\interface;..\modules\rtp_rtcp\interface;..\modules\rtp_rtcp\source;..\modules\udp_transport\interface;..\modules\utility\interface;..\system_wrappers\interface;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;$(DXSDK_DIR)\Include;$(VSInstallDir)\VC\atlmfc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>media_engine.def</ModuleDefinitionFile>
+      <ImportLibrary>$(OutDir)\lib\$(ProjectName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="channel.cc" />
+    <ClCompile Include="channel_manager.cc" />
+    <ClCompile Include="channel_manager_base.cc" />
+    <ClCompile Include="engine_base.cc" />
+    <ClCompile Include="engine_base_impl.cc" />
+    <ClCompile Include="engine_debug_impl.cc" />
+    <ClCompile Include="engine_main.cc" />
+    <ClCompile Include="engine_network_impl.cc" />
+    <ClCompile Include="level_indicator.cc" />
+    <ClCompile Include="monitor_module.cc" />
+    <ClCompile Include="output_mixer.cc" />
+    <ClCompile Include="output_mixer_internal.cc" />
+    <ClCompile Include="shared_data.cc" />
+    <ClCompile Include="statistics.cc" />
+    <ClCompile Include="transmit_mixer.cc" />
+    <ClCompile Include="utility.cc" />
+    <ClCompile Include="voe_api.cc" />
+    <ClCompile Include="voe_apm.cc" />
+    <ClCompile Include="voe_base.cc" />
+    <ClCompile Include="voe_codec.cc" />
+    <ClCompile Include="voe_file.cc" />
+    <ClCompile Include="voe_hardware.cc" />
+    <ClCompile Include="voe_volume.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="media_engine.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="channel.h" />
+    <ClInclude Include="channel_manager.h" />
+    <ClInclude Include="channel_manager_base.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="engine_base_impl.h" />
+    <ClInclude Include="engine_debug_impl.h" />
+    <ClInclude Include="engine_network_impl.h" />
+    <ClInclude Include="include\engine_audio_hardware.hpp" />
+    <ClInclude Include="include\engine_audio_processing.h" />
+    <ClInclude Include="include\engine_audio_processing.hpp" />
+    <ClInclude Include="include\engine_audio_volume.hpp" />
+    <ClInclude Include="include\engine_base.h" />
+    <ClInclude Include="include\engine_base.hpp" />
+    <ClInclude Include="include\engine_debug.h" />
+    <ClInclude Include="include\engine_debug.hpp" />
+    <ClInclude Include="include\engine_hardware.h" />
+    <ClInclude Include="include\engine_network.h" />
+    <ClInclude Include="include\engine_network.hpp" />
+    <ClInclude Include="include\engine_rtp_rtcp.h" />
+    <ClInclude Include="include\engine_utility.h" />
+    <ClInclude Include="include\engine_voe.h" />
+    <ClInclude Include="include\engine_voe.hpp" />
+    <ClInclude Include="include\engine_voe_codec.h" />
+    <ClInclude Include="include\engine_voe_codec.hpp" />
+    <ClInclude Include="include\engine_voe_file.h" />
+    <ClInclude Include="include\engine_voe_file.hpp" />
+    <ClInclude Include="include\engine_audio_volume.h" />
+    <ClInclude Include="include\voe_api.h" />
+    <ClInclude Include="include\voe_errors.h" />
+    <ClInclude Include="include\voe_external_media.h" />
+    <ClInclude Include="level_indicator.h" />
+    <ClInclude Include="monitor_module.h" />
+    <ClInclude Include="output_mixer.h" />
+    <ClInclude Include="output_mixer_internal.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="shared_data.h" />
+    <ClInclude Include="statistics.h" />
+    <ClInclude Include="transmit_mixer.h" />
+    <ClInclude Include="utility.h" />
+    <ClInclude Include="voe_apm.h" />
+    <ClInclude Include="voe_base.h" />
+    <ClInclude Include="voe_codec.h" />
+    <ClInclude Include="voe_file.h" />
+    <ClInclude Include="voe_hardware.h" />
+    <ClInclude Include="voe_volume.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\third_party\amrwb\amrwb.vcxproj">
+      <Project>{8e37fe90-131d-447c-8fcb-84164f3b3876}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\..\third_party\opus\opus.vcxproj">
+      <Project>{33956a86-5cd9-4c0a-4cf3-3905144e34e6}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\..\third_party\protobuf\protobuf_lite.vcxproj">
+      <Project>{76d7b486-4769-68df-4071-f7ade35b3163}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\common_audio\resampler.vcxproj">
+      <Project>{13d3f3ec-97a2-caf2-7da1-d7ce39ddc85b}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\common_audio\signal_processing.vcxproj">
+      <Project>{2aeb13e4-2409-594f-9c79-5d1e7662e35e}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\common_audio\vad.vcxproj">
+      <Project>{82827bdd-42db-dac8-66ea-9c900a84a8b5}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\modules\audioproc_debug_proto.vcxproj">
+      <Project>{e5b5f17b-4451-4219-9751-7a4f748e2299}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\modules\audio_coding_module.vcxproj">
+      <Project>{618cf3b9-4083-51b8-3259-983bc78eef3d}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\modules\audio_conference_mixer.vcxproj">
+      <Project>{64bf765d-3aa2-3fdf-38eb-8d1bbef1719b}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\modules\audio_data_segment.vcxproj">
+      <Project>{7afc2efa-f59a-47da-90ca-cd7b385399ae}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\modules\audio_device.vcxproj">
+      <Project>{5b55fa63-0b36-463a-f0d0-78fcfeebc727}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\modules\audio_processing.vcxproj">
+      <Project>{ddd92a8d-e011-40ae-bc0b-c7ece211ba87}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\modules\audio_processing_sse2.vcxproj">
+      <Project>{8aa54ddf-3ce1-897d-496a-b36e5d47aca4}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\modules\CNG.vcxproj">
+      <Project>{7793322d-344f-a540-46ce-1a440352ea94}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\modules\G711.vcxproj">
+      <Project>{518573ab-6e31-62ad-2674-0385853f52a5}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\modules\G722.vcxproj">
+      <Project>{75508344-922d-6f4f-0475-a881cd69e664}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\modules\iLBC.vcxproj">
+      <Project>{00646f58-7f8c-ca3f-b114-5db05c67e460}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\modules\iSAC.vcxproj">
+      <Project>{a9d439a2-0cc4-0889-1a26-584c6d25ccaa}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\modules\media_file.vcxproj">
+      <Project>{b6f58918-d71d-5d77-0e1a-474f9501eb64}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\modules\NetEq.vcxproj">
+      <Project>{fd5db884-21d0-f8ef-1533-3160c4012bf7}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\modules\PCM16B.vcxproj">
+      <Project>{c6d8ca75-d3b5-06df-111e-7c3ee4cccbba}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\modules\rtp_rtcp.vcxproj">
+      <Project>{bd7c8258-9e49-bef7-3a7d-a52e834a2e28}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\modules\webrtc_amrwb.vcxproj">
+      <Project>{1c2e4877-493d-4af3-9a5c-f394802d3333}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\modules\webrtc_opus.vcxproj">
+      <Project>{0f425c0c-9f37-a683-1cfc-ef406bd8e659}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\modules\webrtc_utility.vcxproj">
+      <Project>{fd0c8ade-e30c-7b92-07b8-00df7e2dece4}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\system_wrappers\source\system_wrappers.vcxproj">
+      <Project>{d2f33ef8-a855-d9ee-a0f1-6f13a3c5b5a1}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="media_engine.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

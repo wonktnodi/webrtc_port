@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="gui">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="engine_gui_test\about_dlg.cpp" />
+    <ClCompile Include="engine_gui_test\engine_dlg.cpp" />
+    <ClCompile Include="engine_gui_test\engine_gui_test.cpp" />
+    <ClCompile Include="engine_gui_test\stdafx.cpp" />
+    <ClCompile Include="engine_gui_test\gui\rich_util.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="engine_gui_test\about_dlg.h" />
+    <ClInclude Include="engine_gui_test\stdafx.h" />
+    <ClInclude Include="engine_gui_test\engine_dlg.h" />
+    <ClInclude Include="engine_gui_test\engine_gui_test.h" />
+    <ClInclude Include="engine_gui_test\resource.h" />
+    <ClInclude Include="engine_gui_test\gui\rich_util.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="engine_gui_test\engine_gui_test.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="engine_gui_test\res\engine_gui_test.ico" />
+  </ItemGroup>
+</Project>
